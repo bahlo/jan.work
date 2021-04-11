@@ -1,0 +1,167 @@
+Title: Progress Update: CouchTimes #2
+
+----
+
+Text:
+
+After some weeks of silence, it is time for another update focusing on CouchTimes. In two previous posts (1, 2) I’ve already talked about the goals of this side project.
+
+Not much has changed from the perspective of these goals, but a lot has changed inside the app since I wrote about it in August.
+
+But before we get into my actual progress I need to make a short statement. While I have a lot of fun working in the iOS ecosystem and enjoy using the latest builds of my app on my iPhone, iOS development as a whole has many quirks. While some things are sooooo fast to implement (especially with SwiftUI) some things just feel broken and when you hit a roadblock, it can feel like hell.
+
+During the (link: https://www.relay.fm/radar/204 text: latest episode) of (link: https://www.relay.fm/radar/ text: Under the Radar) I could feel my self-esteem rise when I heard the struggles of two very experienced iOS developers during their journey of moving code to Swift and SwiftUI. One of the major misses from Apple comes down to (link: https://www.caseyliss.com/2020/11/10/on-apples-pisspoor-documentation text: Apple's Piss-Poor Documentation) - a topic I want to write about more in the context of design systems at some point, but let’s keep the focus on CouchTimes for now.
+
+Besides my struggles during the past months, I’m thrilled with my current progress. The latest build I’ve published to TestFlight has the following features:
+
+- Basic structure for an onboarding screen
+- Empty states for different screens
+- Swipe action to mark the next episode as watched
+- New library screen with favorite features to get a list for your favorite shows
+- Data refresh sync with (link: https://trakt.tv text: Trakt.tv)
+- iCloud Sync
+- … more small improvements
+
+With that we get more and more to a state I would consider version 1.0. Besides some fixes and improvements the only things missing from my current list are “Custom App Icons”, “Appearances (e.g. always dark mode)” and Widget support. The latter would definitely be the biggest investment, and I’m currently unsure if this is worth it.
+
+If you want to join the beta, please visit the (link: https://testflight.apple.com/join/TvEyoBQx text: TestFlight).
+
+----
+
+Date: 2020-11-18 17:00:00
+
+----
+
+Tags: SwiftUI, iOS, CouchTimes
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 

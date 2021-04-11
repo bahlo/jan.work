@@ -1,0 +1,196 @@
+Title: Simplified data requests with 11ty
+
+----
+
+Text:
+
+In a previous post, I described my process of generating my /likes page. In its original shape and form, it needed a good amount of custom code to retrieve the data from the (link: https://pinboard.in/api/ text: Pinboard API). I also created a simple cache, which I mostly used to simplify my local development process, but it always felt like a hack.
+
+Some weeks ago, I came across a new little 11ty utility that simplifies this whole process extremely. (link: https://twitter.com/zachleat text: Zach), the creator of (link: https://www.11ty.dev text: 11ty), published (link: https://github.com/11ty/eleventy-cache-assets text: eleventy-cache-assets) which basically does all the work, but in a much more elegant way.
+
+After installing `eleventy-cache-assets` this is all the code I now need to archive the same functionality as before:
+
+```js
+const Cache = require("@11ty/eleventy-cache-assets");
+require('dotenv').config();
+
+const USERNAME = process.env.PINBOARD_USERNAME;
+const PASSWORD = process.env.PINBOARD_PASSWORD;
+
+module.exports = async function() {
+  let json = await Cache(`https://${USERNAME}:${PASSWORD}@api.pinboard.in/v1/posts/all?format=json&tag=like`, {
+    duration: "1d",
+    type: "json"
+  });
+
+  return json;
+};
+```
+
+And to be fully clear, this is a much better system as before. Additionally, I also get a more robust and flexible caching system for free on top.
+
+I also used the same utility to get the data I need for the little (link: https://dribbble.com text: Dribbble) preview I now have on my homepage. Just these few lines of code and everything works.
+
+```js
+const Cache = require("@11ty/eleventy-cache-assets");
+require('dotenv').config();
+
+const TOKEN = process.env.DRIBBBLE_TOKEN;
+
+module.exports = async function() {
+  let json = await Cache(`https://api.dribbble.com/v2/user/shots?per_page=6&access_token=${TOKEN}`, {
+    duration: "1d",
+    type: "json"
+  });
+
+  return json;
+};
+```
+
+With the duration option you have full control over the duration timeframe of the cache itself. The type is extendable to other types like text or Buffer as well.
+
+This utility really makes it a breeze to get data from an API and include it on your own website running 11ty.
+
+### Update #1 - June 28th 2020
+
+For some reason, the way I handled the Pinboard requests stopped working — I couldn't reproduce it myself. Thankfully, (link: https://arne.me text: Arne), who also used this setup came up with a (link: https://github.com/bahlo/arne.me/commit/039c0e96ffb7ea5a32d7cdc9bb26477757d03ccb text: fix) that solved the problem for us.
+
+----
+
+Date: 2020-06-12 17:00:00
+
+----
+
+Tags: Redesign, 11ty
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 

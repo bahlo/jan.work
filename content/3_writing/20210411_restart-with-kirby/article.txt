@@ -1,0 +1,153 @@
+Title: Restart with Kirby
+
+----
+
+Text:
+
+It's already April, my last post dates back to November of last year. With all of this in mind, I came to the conclusion that this site needed a little refresh. Nothing huge, some teaks here and there and a more suitable foundation, so I hopefully can get back to writing more in the future. While I love (link: https://www.11ty.dev text: 11ty) and I will continue to use it for all the little websites I'll build in the future, I needed to change the foundations of this very site.
+
+In the past months, I've learned (again) that writing posts in plain old markdown files inside my code editor is cool, but not the way I love doing it. It holds me back and doesn't feel as enjoyable as it should be. I always start with that scary big empty textarea and adding more mental overhead with running the local build server etc. won't help me write more.
+
+Because publishing more constantly was one of the main drivers for my redesign efforts by the end of 2019, I reevaluated this current state and decided to move everything I currently have to (link: https://getkirby.com text: Kirby). Kirby is a simple, file-based CMS I already have experience with, and it also got a lot of nice new features (e.g. (link: https://getkirby.com/docs/reference/panel/fields/blocks text: Blocks)) that will help me in the future. Kirby gives me everything I need while also providing me with a solid and easy to use backend where I can edit my draft posts. On top of all this, I can also do it very easily from my iPad with the Magic Keyboard, which I love and want to use more for writing in the future.
+
+All in all, this is mostly what could be considered a foundational change. Besides that, I also tweaked some visuals, but this is a topic for another post.
+
+----
+
+Date: 2021-04-11 14:00:00
+
+----
+
+Tags: Kirby, Redesign
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-04-09 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-04-09 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-04-09 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

@@ -1,0 +1,29 @@
+title: Project
+preset: page
+icon: 🏗
+
+fields:
+  homepage:
+    label: Show on homepage?
+    type: toggle
+    text: 
+      - "no"
+      - "yes"
+    width: 1/2
+  type:
+    label: Type
+    type: select
+    options:
+      case-study: Case Study
+      project: Project
+      open-source: Open Source
+    width: 1/2
+  link:
+    label: Link
+    type: text
+    required: true
+  text:
+    label: Text
+    type: textarea
+    size: medium
+    required: true

@@ -1,0 +1,9 @@
+Title: Kurzpass
+
+----
+
+Website: https://rasenfunk.de/kurzpass
+
+----
+
+Feed: https://kurzpass.podigee.io/feed/mp3

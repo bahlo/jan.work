@@ -1,0 +1,25 @@
+/* ------------------------------------------------------------------
+||  Custom Properties
+------------------------------------------------------------------- */
+:root {
+  --font-headline: "Apercu", sans-serif;
+  --font-body: "Calluna", Georgia, 'Times New Roman', Times, serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+  --size-200: 0.64rem;
+  --size-300: 0.8rem;
+  --size-400: 1rem;
+  --size-500: 1.25rem;
+  --size-600: 1.563rem;
+  --size-700: 1.953rem;
+  --size-800: 2.441rem;
+  --size-900: 3.052rem;
+
+  --black-5: rgba(0, 0, 0, 0.05);
+  --black-10: rgba(0, 0, 0, 0.1);
+  --black-30: rgba(0, 0, 0, 0.3);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --black-90: rgba(0, 0, 0, 0.9);
+
+  --border-radius: 6px;
+}

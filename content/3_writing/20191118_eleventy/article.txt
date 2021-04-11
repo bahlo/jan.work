@@ -1,0 +1,154 @@
+Title: Eleventy
+
+----
+
+Text:
+
+Last week I attended (link: https://beyondtellerrand.com/events/berlin-2019/speakers text: BeyondTellerand Berlin), which was, as always, a fantastic conference. This year, the opening talk was given by Jeremy Keith, who talked about (link: https://vimeo.com/373128517 text: The Layers Of The Web). This fantastic talk, which you should watch, got me thinking about my tech choice for this new personal site.
+
+Is it essential to use such a massive tool like (link: https://gridsome.org text: Gridsome) to power this site and future playground? I love (link: https://vuejs.org text: Vue), and it can be a fantastic tool for building web-based applications, but do I really need this kind of power, and do I want to make the people suffer who are visiting the website because of unnecessary bloat they need to download to get the Gridsome experience?
+
+I don't think so. I want to have a lightweight, fast, and very dull foundation for this website. Because of that, I removed everything from the Gridsome side and replaced it with some (link: https://www.11ty.dev text: 11ty) love. Everything is entirely static and crazy fast now. Look at these two screenshots I took to compare Gridsome and 11ty from the Firefox Network Tab. 🔥 🚀
+
+(image: gridsome.jpg class: figure--inline)
+(image: 11ty.jpg class: figure--inline)
+
+----
+
+Date: 2019-11-18 21:00:00
+
+----
+
+Tags: Redesign, 11ty
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-04-08 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-04-08 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-04-08 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

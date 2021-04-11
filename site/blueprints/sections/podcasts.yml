@@ -1,0 +1,8 @@
+type: pages
+headline: Podcasts
+parent: site.find("Podcasts")
+template: podcast
+image:
+  src: page.image
+  ratio: 1/1
+  back: pattern

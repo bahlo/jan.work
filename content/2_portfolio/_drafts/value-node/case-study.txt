@@ -1,0 +1,33 @@
+Title: Value Node
+
+----
+
+Company: BRYTER
+
+----
+
+Role: Product Designer
+
+----
+
+Year: 2020
+
+----
+
+Tags: 
+
+----
+
+Homepage: false
+
+----
+
+Type: case-study
+
+----
+
+Intro: 
+
+----
+
+Text: []

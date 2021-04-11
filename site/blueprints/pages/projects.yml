@@ -1,0 +1,14 @@
+title: Projects
+preset: pages
+icon: ⌨️
+templates:
+  - project
+  - case-study
+
+drafts:
+  extends: sections/projects
+  headline: Project Drafts
+
+listed:
+  extends: sections/projects
+  headline: Published Projects

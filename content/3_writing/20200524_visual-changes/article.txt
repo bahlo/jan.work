@@ -1,0 +1,206 @@
+Title: Visual changes
+
+----
+
+Text:
+
+This site looks different now! And to tell you a little secret, this new look also depends on the settings of your operating systems. Which mode are you currently using? Dark Mode? Light Mode? The visual changes reflect your settings. Try it out yourself! 🌈
+Part 1 — More structure
+
+During the past couple of weeks, I prepared this site to become more mature. I wanted to drop the "this is a blog" feeling it communicated before. To tackle this problem, I first tried to build a layout system based on a grid that allowed me to be flexible but also convey the feeling of similarity.
+
+To support my descriptions above, take a look at the following example page:
+
+(image: layout-grid.jpg class: figure--inline)
+
+When you visit some other pages on this website, you can see the three main columns in action. Sometimes two columns morph into one, but they always stay true to their initial structure.
+Part 2 — Color is fun
+
+I didn't want to build another standard and simple website with a white background. I wanted to do something with color. In terms of inspiration, I have to mention the websites from (link: https://laurakalbag.com text: Laura Kalbag) and (link: https://tatianamac.com text: Tatiana Mac). Both websites are beautiful in their own way using color in a characteristic style and create a unique experience.
+
+I wanted to do something similar, so I set out to create different color themes for different areas of my website. To make this extra challenging, I also set out to have them react for the dark/light mode setting of the person visiting my website.
+
+This all may sound very challenging, and it was to some degree, but from a pure technical standpoint, CSS really makes things more approachable and straightforward. The magic-word here is (link: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties text: CSS custom properties) (aka. CSS variables). What I did was to create a small theming system like so:
+
+```scss
+body {
+  --background-color: #f5f3ef;
+  --text-primary-color: #{var(--black-90)};
+  --text-secondary-color: #{var(--black-60)};
+  --border-color: #{var(--black-10)};
+  --text-action-color: rgba(73, 71, 215, 0.9);
+  --text-action-hover-color: rgba(73, 71, 215, 0.7);
+}
+```
+
+Based on these CSS custom properties, I created a scaffold that spreads across the site and all its styles. As an example, setting the background-color on the body element with the defined --background-color CSS custom properties looks like this:
+
+```scss
+body {
+  background-color: var(--background-color);
+}
+```
+
+With this setup, every page still looked the same. But now it was running on CSS custom properties instead of hard-coded values or SCSS variables.
+
+The next step I took was adding unique classes to the individual pages I wanted to change, so I could add different styles to them.
+
+To make this process a bit more clear, let's take the homepage as an example. The homepage only needed a new custom background-color, so I added this piece of code to solve it:
+
+```scss
+.cs-homepage {
+  --background-color: #f1f6f9;
+
+  @media (prefers-color-scheme: dark) {
+    --background-color: #12232b;
+  }
+}
+```
+
+All it does is reassigning the --background-color CSS custom property to #f1f6f9. With that, every component which is referencing this var(--background-color) somewhere, updates to the new color value. In this example this only happens on the homepage.
+
+To make it even more awesome and add support for dark mode, I added the @media (prefers-color-scheme: dark) (link: https://developer.mozilla.org/de/docs/Web/CSS/Media_Queries/Using_media_queries text: media query). Inside this media query I'm reassigning --background-color to #12232b - that's all.
+
+With this setup, I can react to every page and set all the CSS custom properties I've listed earlier to any value I want.
+
+All in all, this is a simple but powerful approach of adding custom theming to my site. For more details, feel free to look into the (link: https://github.com/coolcut/fruechtl.me text: repository of this site).
+
+----
+
+Date: 2020-05-24 17:00:00
+
+----
+
+Tags: Redesign, Color
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-04-08 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-04-08 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-04-08 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

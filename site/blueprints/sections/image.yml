@@ -1,0 +1,5 @@
+type: files
+headline: Podcast Cover
+max: 1
+layout: cards
+info: "{{ file.dimensions }}"

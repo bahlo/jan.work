@@ -1,0 +1,157 @@
+Title: Syntax Highlighting
+
+----
+
+Text:
+
+During my searches through the (link: https://www.11ty.dev/docs/ text: 11ty documentation), I stumbled upon the (link: https://www.11ty.dev/docs/plugins/syntaxhighlight/ text: official syntax highlighting plugin) offered by 11ty. The beauty of this plugin is that it does everything during build-time. This means that there is no need for any client-side JavaScript. 🙌
+
+As an example of how this new syntax highlighting looks for now, here you can see a case with the configuration for the syntax highlighting plugin itself:
+
+```js
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(syntaxHighlight);
+};
+```
+
+----
+
+Date: 2019-12-08 18:00:00
+
+----
+
+Tags: Redesign, 11ty
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-04-08 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-04-08 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-04-08 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

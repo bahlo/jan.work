@@ -1,0 +1,36 @@
+/* ------------------------------------------------------------------
+||  Base
+------------------------------------------------------------------- */
+.wrapper {
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 992px;
+}
+
+.main-content {
+  padding: 48px 0;
+  
+  @media (min-width: 35rem) {
+    padding: 72px 0;
+  }
+}
+
+.default-page {
+  max-width: 60ch;
+}
+
+.page-title {
+  margin: 0 0 24px;
+
+  @media (min-width: 45rem) {
+    margin: 0 0 48px;
+  }
+}
+
+.section-title {
+  margin: 0 0 24px;
+
+  @media (min-width: 45rem) {
+    margin: 0 0 48px;
+  }
+}

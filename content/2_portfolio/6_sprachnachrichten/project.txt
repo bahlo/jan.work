@@ -1,0 +1,17 @@
+Title: Sprachnachrichten
+
+----
+
+Homepage: true
+
+----
+
+Type: project
+
+----
+
+Link: https://sprachnachrichten.fm
+
+----
+
+Text: A fortnightly German podcast focused on productivity and self-improvement in the digital space. I run this podcast together with my good friend (link: https://arne.me text: Arne).

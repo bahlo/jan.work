@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "0.1",
+  "main": "index.js",
+  "repository": "https://github.com/getkirby/plainkit.git",
+  "author": "Jan Früchtl <jan@fruechtl.me>",
+  "license": "MIT",
+  "scripts": {
+    "styles": "sass assets/sass/main.scss assets/css/main.css --watch --style=compressed --update",
+    "sync:push": "rsync -av ./content ssh fruechtl@carina.uberspace.de:/var/www/virtual/fruechtl/html",
+    "sync:pull": "rsync -av ssh fruechtl@carina.uberspace.de:/var/www/virtual/fruechtl/html ./content "
+  },
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}

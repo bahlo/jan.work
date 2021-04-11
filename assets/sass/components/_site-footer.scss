@@ -1,0 +1,57 @@
+/* ------------------------------------------------------------------
+||  Site Footer
+------------------------------------------------------------------- */
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0;
+  border-top: 4px solid var(--black-10);
+  
+  @media (min-width: 45rem) {
+    padding: 72px 0;
+  }
+}
+
+.secondary-navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+  @media (min-width: 45rem) {
+    display: flex;
+  }
+}
+
+.secondary-navigation__item {
+  margin: 0 0 8px;
+  font-family: var(--font-headline);
+  font-size: var(--size-400);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 45rem) {
+    margin: 0 0 0 24px;
+    
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a {
+    position: relative;
+    color: var(--black-60);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--black-90);
+    }
+  }
+}
+
+.copyright {
+  font-family: var(--font-headline);
+  font-size: var(--size-400);
+  color: var(--black-60);
+}

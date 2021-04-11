@@ -1,0 +1,21 @@
+Title: sprachnachrichten / sprachnachrichten.fm
+
+----
+
+Homepage: false
+
+----
+
+Type: open-source
+
+----
+
+Link: https://github.com/sprachnachrichten/sprachnachrichten.fm
+
+----
+
+Text: The code that is powering the website for the (link: https://sprachnachrichten.fm text: Sprachnachrichten) podcast. While the backend is running on WordPress, this website was built with (link: https://www.11ty.dev text: 11ty) as a shared project with (link: https://arne.me text: Arne).
+
+----
+
+Slogan: 

@@ -1,0 +1,9 @@
+Title: Home
+
+----
+
+Headline: Hey, I’m Jan!
+
+----
+
+Slogan: I’m a hybrid designer/developer, specializing in design systems and scalable solutions who is currently living in Frankfurt am Main, Germany.

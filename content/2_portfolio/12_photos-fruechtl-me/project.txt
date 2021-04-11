@@ -1,0 +1,21 @@
+Title: photos.fruechtl.me
+
+----
+
+Homepage: true
+
+----
+
+Type: open-source
+
+----
+
+Link: https://photos.fruechtl.me
+
+----
+
+Text: The website where I'm using (link: https://github.com/usephoton/photon-11ty text: photon-11ty) myself to publish some photography.
+
+----
+
+Slogan: 

@@ -1,0 +1,9 @@
+Title: 404 Page Not Found
+
+----
+
+Text:
+
+The page you tried to access cannot be found. From here, you can go to the (link: / text: homepage) or, if you like, check-out some of my recent (link: /writing text: writings).
+
+If you have the feeling that this is an unintentional error on my end, and it probably is, please (email: jan@fruechtl.me text: report it) and I will try to fix it.

@@ -1,0 +1,25 @@
+Title: CouchTimes
+
+----
+
+Homepage: true
+
+----
+
+Type: project
+
+----
+
+Link: https://couchtim.es
+
+----
+
+Text: An iOS application I'm currently working on which aims to help people organize their TV show consume. Besides that, this was also the perfect gateway to get into iOS development with Swift and SwiftUI.
+
+----
+
+Slogan: 
+
+----
+
+Year: 

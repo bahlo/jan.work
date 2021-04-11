@@ -1,0 +1,66 @@
+/* ------------------------------------------------------------------
+||  Case Study
+------------------------------------------------------------------- */
+.case-study {
+  .page-title {
+    margin: 0 0 8px;
+  }
+  
+  .case-study-intro {
+    margin: 0 0 48px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    color: var(--black-60);
+  }
+
+  p, ul, ol, .code-toolbar, .figure--inline {
+    max-width: 60ch;
+  }
+
+  blockquote {
+    max-width: calc(60ch - 3rem);
+  }
+
+  h2 {
+    margin: 48px 0 24px;
+  }
+  
+  h3, h4 {
+    margin: 0 0 8px;
+  }
+
+  figure {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .case-study-cover {
+    img {
+      max-width: 100%;
+      border: 4px solid var(--black-10);
+      border-radius: var(--border-radius);
+    }
+  }
+}
+
+.case-study-cover {
+  padding: 72px 0;
+  background-color: var(--black-10);
+}
+
+/* ------------------------------------------------------------------
+||  Case Study - Themes
+------------------------------------------------------------------- */
+.case-study--advance-vat-return {
+  .case-study-cover {
+    background-color: lighten(#56BCAF, 34%);
+  }
+}
+
+.case-study--motus-warehouse {
+  .case-study-cover {
+    background-color: lighten(#4A66D2, 34%);
+  }
+}

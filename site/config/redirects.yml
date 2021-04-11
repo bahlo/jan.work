@@ -1,0 +1,20 @@
+routes:
+  - 
+    from: writing/feed.xml
+    to: feed
+    status: 301
+    priority: null
+    comment: null
+  - 
+    from: journal/(:all)
+    to: writing/$1
+    status: 301
+    priority: null
+    comment: null
+  - 
+    from: journal
+    to: writing
+    status: 301
+    priority: null
+    comment: null
+schema: 3.0.0

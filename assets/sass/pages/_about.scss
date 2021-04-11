@@ -1,0 +1,49 @@
+/* ------------------------------------------------------------------
+||  About
+------------------------------------------------------------------- */
+.biography {
+  padding-bottom: 48px;
+  
+  @media (min-width: 45rem) {
+    padding-bottom: 72px;
+  }
+}
+
+/* ------------------------------------------------------------------
+||  Biography
+------------------------------------------------------------------- */
+.biography-content {
+  @media (min-width: 45rem) {
+    columns: 2;
+    gap: 48px;
+  }
+}
+
+/* ------------------------------------------------------------------
+||  Resume
+------------------------------------------------------------------- */
+.experiences {
+  padding-top: 48px;
+  
+  @media (min-width: 45rem) {
+    padding-top: 72px;
+  }
+}
+
+.resume-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resume-list__item {
+  &:first-child {
+    .collapse {
+      border-top: none;
+    }
+
+    .collapse__header {
+      padding-top: 0;
+    }
+  }
+}

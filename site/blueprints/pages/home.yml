@@ -1,0 +1,11 @@
+title: Default Page
+preset: page
+
+fields:
+  headline:
+    label: Text
+    type: text
+  slogan:
+    label: Text
+    type: textarea
+    size: small
