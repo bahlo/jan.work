@@ -23,6 +23,10 @@ Tags: Redesign, 11ty
 
 ----
 
+Likes: b3f581b8fd774124af5c3b8e305b0931;cd9dc971a99fc8f0c969d2312147ddb5;ee373d8c71899c2034de31b790a801cf;22a5506ca036c25e87c85efe011f05d8;e1dccbe26f6d6c9a1da24b3add59732b;c9639a28506e7cb64e1c7adeeb66dac6;
+
+----
+
 Meta-title: 
 
 ----
