@@ -50,7 +50,13 @@
   background-color: var(--black-10);
 }
 
+.case-study-cover__image {
+  margin: 0;
+}
+
 .case-study__content {
+  margin-bottom: 4.5rem;
+  
   figure {
     img {
       border: 4px solid var(--black-10);
@@ -63,35 +69,77 @@
 ||  Case Study - Themes
 ------------------------------------------------------------------- */
 .case-study--bliss-design-system-v0-x {
-  .case-study-cover {
+  .case-study-cover,
+  .case-study__information {
     background-color: lighten(#DF4D52, 34%);
   }
 }
 
 
 .case-study--bliss-design-system-iconsets {
-  .case-study-cover {
+  .case-study-cover,
+  .case-study__information {
     background-color: lighten(#F09552, 30%);
   }
 }
 
 
 .case-study--case-management {
-  .case-study-cover {
+  .case-study-cover,
+  .case-study__information {
     background-color: lighten(#F7CE55, 28%);
   }
 }
 
 
 .case-study--advance-vat-return {
-  .case-study-cover {
+  .case-study-cover,
+  .case-study__information {
     background-color: lighten(#56BCAF, 34%);
   }
 }
 
 
 .case-study--motus-warehouse {
-  .case-study-cover {
+  .case-study-cover,
+  .case-study__information {
     background-color: lighten(#4A66D2, 34%);
   }
+}
+
+/* ------------------------------------------------------------------
+||  Case Study - Information
+------------------------------------------------------------------- */
+.case-study__information {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  padding: 3rem;
+  border-radius: var(--border-radius);
+
+  h4 {
+    margin: 0 0 .25rem;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.case-study__information-bits {
+  display: grid;
+  gap: 16px;
+}
+
+.case-study__information-responsibilities li {
+  margin: 0 0 .25rem;
+}
+
+.case-study__information-text {
+  display: block;
+  font-family: var(--font-headline);
+  font-size: var(--size-500);
+  line-height: 1.25;
+  color: var(--black-60);
 }
