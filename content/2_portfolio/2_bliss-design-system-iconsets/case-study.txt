@@ -18,7 +18,7 @@ Responsibilities: Project Lead, Product Management, Documentation
 
 ----
 
-Homepage: false
+Homepage: true
 
 ----
 

@@ -18,7 +18,7 @@ Responsibilities: Design Systems, UX & UI, Front-end Engineering, Documentation,
 
 ----
 
-Homepage: false
+Homepage: true
 
 ----
 
