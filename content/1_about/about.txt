@@ -4,9 +4,11 @@ Title: About
 
 Text:
 
-I am a designer, developer, and podcaster. I am currently living in Frankfurt am Main, Germany. My natural habitat is at the intersection of design, development, and product management.
+I am a designer, developer, and podcaster. I am currently living in Frankfurt am Main, Germany. My natural habitat is at the intersection of design, development, and product management. This is where I feel most comfortable and can contribute best.
 
-Right now I'm working at (link: https://bryter.com text: BRYTER), where I focus on building our open-source design system called (link: https://gitlab.com/bliss-design-system text: Bliss). Before BRYTER I have been working for companies like (link: https://www.clark.de text: Clark), (link: https://www.fastbill.com text: FastBill) and (link: https://motus.app/en/index.html text: REICHHART). Experiencing all these different industries taught me a lot about the work I do today. In my spare time, I work on different (link: /portfolio#selected-projects text: side projects), (link: /portfolio#open-source-projects text: open-source projects) and co-host two podcasts.
+Right now I'm working at (link: https://bryter.com text: BRYTER), where I'm focused on building our open-source design system called (link: https://gitlab.com/bliss-design-system text: Bliss). Before BRYTER I have been working for companies like (link: https://www.clark.de text: Clark), (link: https://www.fastbill.com text: FastBill) and (link: https://motus.app/en/index.html text: REICHHART).
+
+In my spare time, I work on different (link: /portfolio#selected-projects text: side projects), (link: /portfolio#open-source-projects text: open-source projects) and co-host two podcasts.
 
 (link: https://bandbreite.fm text: Bandbreite) is a group podcast with friends from university (where the podcast originated). It's focused on general tech and our experiences as designers and developers.
 
