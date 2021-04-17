@@ -72,13 +72,12 @@ fields:
           - markdown
 
 sidebar:
-  cover:
+   cover:
     type: files
     headline: Cover
     layout: cards
     info: "{{ file.dimensions }}"
     template: cover
   gallery:
-    type: files
     headline: Gallery
-    template: image
+    type: files

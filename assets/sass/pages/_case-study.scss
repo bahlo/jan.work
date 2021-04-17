@@ -29,7 +29,7 @@
     margin: 0 0 8px;
   }
 
-  figure {
+  figure {    
     img {
       width: 100%;
       height: 100%;
@@ -50,14 +50,45 @@
   background-color: var(--black-10);
 }
 
+.case-study__content {
+  figure {
+    img {
+      border: 4px solid var(--black-10);
+      border-radius: var(--border-radius);
+    }
+  }
+}
+
 /* ------------------------------------------------------------------
 ||  Case Study - Themes
 ------------------------------------------------------------------- */
+.case-study--bliss-design-system-v0-x {
+  .case-study-cover {
+    background-color: lighten(#DF4D52, 34%);
+  }
+}
+
+
+.case-study--bliss-design-system-iconsets {
+  .case-study-cover {
+    background-color: lighten(#F09552, 30%);
+  }
+}
+
+
+.case-study--case-management {
+  .case-study-cover {
+    background-color: lighten(#F7CE55, 28%);
+  }
+}
+
+
 .case-study--advance-vat-return {
   .case-study-cover {
     background-color: lighten(#56BCAF, 34%);
   }
 }
+
 
 .case-study--motus-warehouse {
   .case-study-cover {
