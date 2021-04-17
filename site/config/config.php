@@ -17,5 +17,8 @@ return [
             return $feed;
         }
     ]
-]
+  ],
+  'medienbaecker.autoresize.maxWidth' => 2000,
+  'medienbaecker.autoresize.maxHeight' => 2000,
+  'medienbaecker.autoresize.quality' => 80
 ];
