@@ -6,7 +6,7 @@ Company: BRYTER
 
 ----
 
-Role: Lead Designer & Developer
+Role: Designer & Developer
 
 ----
 

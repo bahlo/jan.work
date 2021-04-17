@@ -6,7 +6,7 @@ Company: REICHHART
 
 ----
 
-Role: Product Designer & Developer
+Role: Designer & Developer
 
 ----
 
