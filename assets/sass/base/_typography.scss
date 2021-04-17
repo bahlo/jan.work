@@ -89,6 +89,7 @@ a {
   font-size: var(--size-400);
   line-height: 1.25;
   color: var(--black-90);
+  cursor: pointer;
   background-color: var(--black-10);
   text-decoration: none;
   border: 1px solid transparent;
@@ -100,6 +101,12 @@ a {
     border: 1px solid var(--black-90);
     background-color: var(--black-90);
   }
+}
+
+.link-button--post {
+  padding: 8px 12px;
+  background-color: #FFFFFF;
+  border-color: var(--black-30);
 }
 
 /* ------------------------------------------------------------------

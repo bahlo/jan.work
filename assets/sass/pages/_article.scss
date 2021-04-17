@@ -18,6 +18,8 @@
 }
 
 .post-content {
+  margin: 0 0 48px;
+  
   p, ul, ol, .code-toolbar, .figure--inline {
     max-width: 60ch;
   }
@@ -29,4 +31,12 @@
   blockquote {
     max-width: calc(60ch - 22px);
   }
+}
+
+.post-actions {
+  display: flex;
+}
+
+.post-actions__like {
+  margin-right: 1rem;
 }
