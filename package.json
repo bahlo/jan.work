@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "styles": "sass assets/sass/main.scss assets/css/main.css --watch --style=compressed --update",
+    "styles:build": "sass assets/sass/main.scss assets/css/main.css --style=compressed",
     "sync:push": "rsync -av ./content ssh fruechtl@carina.uberspace.de:/var/www/virtual/fruechtl/html",
     "sync:pull": "rsync -av ssh fruechtl@carina.uberspace.de:/var/www/virtual/fruechtl/html ./content "
   },
