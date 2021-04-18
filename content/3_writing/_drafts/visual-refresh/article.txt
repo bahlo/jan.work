@@ -1,0 +1,152 @@
+Title: Visual refresh
+
+----
+
+Text:
+
+As mentioned in (link: /writing/restart-with-kirby text: my last post), let's dive a bit into the visual refresh this website also got after moving to Kirby. As with some of my old sites, you can still access them under a subdomain - (link: https://2020.fruechtl.me text: 2020.fruechtl.me).
+
+## Simple colors
+While the last design was more fun with all the different color themes per page, it became a bit too much for me. Besides that, it also didn't scale very well. This is why I decided to move back to a simple color usage. Having a very light, non-white background and simple black and gray colors will be enough paired with a solid typography hierarchy.
+
+## Portfolio and case studies
+
+----
+
+Date: 2021-04-18 00:00:00
+
+----
+
+Tags: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-04-18 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-04-18 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-04-18 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

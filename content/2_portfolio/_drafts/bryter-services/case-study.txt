@@ -1,0 +1,37 @@
+Title: BRYTER Services
+
+----
+
+Company: BRYTER
+
+----
+
+Role: Product Designer
+
+----
+
+Year: 2020
+
+----
+
+Homepage: false
+
+----
+
+Teaser: true
+
+----
+
+Type: case-study
+
+----
+
+Intro: 
+
+----
+
+Text: []
+
+----
+
+Tags: 

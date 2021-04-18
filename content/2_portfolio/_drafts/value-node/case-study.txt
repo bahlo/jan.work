@@ -1,4 +1,4 @@
-Title: Case Management
+Title: Value Node
 
 ----
 
@@ -14,11 +14,11 @@ Year: 2020
 
 ----
 
-Homepage: false
+Tags: 
 
 ----
 
-Teaser: true
+Homepage: false
 
 ----
 
@@ -31,7 +31,3 @@ Intro:
 ----
 
 Text: []
-
-----
-
-Tags: 
