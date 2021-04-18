@@ -18,11 +18,11 @@ Responsibilities: Design Systems, UX & UI, Front-end Engineering, Documentation,
 
 ----
 
-Homepage: true
+Homepage: false
 
 ----
 
-Teaser: false
+Teaser: true
 
 ----
 
