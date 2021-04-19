@@ -26,6 +26,6 @@
 <?php if($page->template() == "article"): ?>
 <?= js(['assets/js/prism.js']) ?>
 <?php endif ?>
-<script async defer data-domain="fruechtl.me" src="https://plausible.io/js/plausible.js"></script>
+<script async defer data-domain="fruechtl.me" src="https://stats.fruechtl.me/js/index.js"></script>
 </body>
 </html>
