@@ -15,7 +15,3 @@ Link: https://github.com/coolcut/fruechtl.me
 ----
 
 Text: The code that powers this little website.
-
-----
-
-Slogan: 

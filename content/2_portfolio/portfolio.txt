@@ -1,9 +1,1 @@
 Title: Portfolio
-
-----
-
-Text:
-
-This is a recent collection of projects I've worked on. The range goes across different industries and covers web-based applications as well as mobile applications for Android and iOS.
-
-Some of these projects also cover work on internal design systems that supported these projects. More details on these specific design systems are included in various case studies. You can always find more work I was involved in on (link: https://dribbble.com/coolcut text: Dribbble) or (link: https://github.com/coolcut text: GitHub).
