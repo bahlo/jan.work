@@ -31,8 +31,8 @@ tabs:
           meta:
             type: fields
             fields:
-              downloads:
-                label: Downloads
+              images:
+                label: Images
                 type: files
               date:
                 type: date

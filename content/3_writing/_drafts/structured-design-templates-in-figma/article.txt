@@ -46,7 +46,7 @@ If you want to take a look yourself, we released our template to the Figma Commu
 
 ----
 
-Downloads:
+Images:
 
 - readme.png
 - pages-overview.png
