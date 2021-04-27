@@ -42,7 +42,7 @@ When looking back at the questions and goals we had before creating the design f
 
 We lowered the bar to fully understand individual Figma files inside our design community as well as for other stakeholders. Regardless which information somebody is looking for, they should be able to find it themselves and if not the README is always there as a last resort.
 
-If you want to take a look yourself, we released our template to the Figma Community.
+If you want to take a look yourself, we (link: https://www.figma.com/community/file/968891414735497272/Design-Template text: released our template to the Figma Community).
 
 ----
 
@@ -57,7 +57,7 @@ Date: 2021-04-24 00:00:00
 
 ----
 
-Tags: 
+Tags: Design Systems, Figma
 
 ----
 

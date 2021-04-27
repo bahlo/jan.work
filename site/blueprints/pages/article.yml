@@ -39,8 +39,10 @@ tabs:
                 time: true
                 default: now
               tags:
+                label: Tags
                 type: tags
-                query: page.siblings.pluck("tags", ",", true)
+                options: query
+                query: site.index.pluck("tags", ",", true)
               likes:
                 label: Likes
                 type: likes
