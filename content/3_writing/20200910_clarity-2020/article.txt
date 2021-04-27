@@ -28,7 +28,7 @@ Never done
 
 Another prominent topic during these three days circled around the fact that, like almost everything, design systems are never done. Design systems are about people, collaboration, and the process itself.
 
-We as people who work on design systems can always make the components and tools better, but we should focus more on the intermediate and personal things to solve.
+We as people who work on design systems can always improve components and tools, but we should focus more on the intermediate and personal things to solve.
 
 Our way of systematically thinking about problems can also help in other areas like team structures and collaboration. In his talk Designing teams. Designing systems. (link: https://faraimadzima.com text: Farai Madzima) talked about the similarities between design and team principles and how a shared language in these areas is needed to successfully collaborate. Create a glossary to improve the meaning of your language — this doesn’t only have to be for your design or development workflows. It also is very helpful for a company to make common words and phrases more clear for new-joiners. In the end, successful collaboration boils down to successful communication.
 Happiness & Inclusivity
