@@ -1,0 +1,1 @@
+Alt: The Figma macOS app showing the README page from our design file template

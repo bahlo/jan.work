@@ -17,7 +17,7 @@ Based on these problems, we set out to propose a universal structure to use for 
 ## Basic outline
 Because we wanted everything in one single file, we needed to cover the common steps in our design process in this template, while also leaving space for flexibility. One clear first step for us was the introduction of a README page inside every design file. This README holds all the key information about the project, some helpful links as well as a glossary about the design template itself (not everybody might be familiar with it at any time, so having this helps).
 
-(image: screenshot-2021-04-24-at-15.06.01.png)
+(image: readme.png)
 
 Because a dedicated "Handoff" page for designers/developer communication was already an emerging pattern, we doubled down on this and made it the first visible page after the README. Most developers coming to this file want to see the final designs because they need to implement them at some point. Additionally, these are also the most important bits when quickly looking through old files to get a basic understanding.
 
@@ -35,7 +35,7 @@ While comments inside Figma are helpful, we learned that changes to designs are 
 ### Components and Time Machine
 While these three section are the core of our template, we also added a section for file internal components (components that aren't inside our design system) as well as a section called Time Machine, which is based on the (link: https://www.figma.com/community/plugin/734492262527930956/Time-Machine text: Time Machine Figma plugin), which we use internally.
 
-(image: screenshot-2021-04-24-at-15.30.38.png)
+(image: pages-overview.png)
 
 ## Conclusion
 When looking back at the questions and goals we had before creating the design file templates, we see that all of them are now resolved. The key to get here was a clear separation between creation, feedback, testing and handoff. If we are strict with the fundamental blocks of this template (aka. the different sections), we can be more flexible inside the individual sections. 
@@ -43,6 +43,13 @@ When looking back at the questions and goals we had before creating the design f
 We lowered the bar to fully understand individual Figma files inside our design community as well as for other stakeholders. Regardless which information somebody is looking for, they should be able to find it themselves and if not the README is always there as a last resort.
 
 If you want to take a look yourself, we released our template to the Figma Community.
+
+----
+
+Downloads:
+
+- readme.png
+- pages-overview.png
 
 ----
 
