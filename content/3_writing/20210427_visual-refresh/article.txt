@@ -1,0 +1,181 @@
+Title: Visual refresh
+
+----
+
+Text:
+
+As mentioned in (link: /writing/restart-with-kirby text: my last post), let's dive a bit into the visual refresh this website got after moving it to (link: https://getkirby.com text: Kirby CMS).
+
+## Simpler colors
+While the last design was more fun with all the different color themes per page, it became a bit too much for me. Besides that, it also didn't scale very well. That's why I've decided to move back to a simpler color usage. Having a very light, non-white background and simple black and gray colors is enough for me at the current stage.
+
+## Revised typography
+I've also reverted some earlier typography experiments and went with a more common sans-serif for headings/serif for body text pairing. I've kept the beautiful (link: https://www.colophon-foundry.org/typefaces/apercu/ text: Aperçu) typeface, which now is used for headings, and added (link: https://www.myfonts.com/fonts/exljbris/calluna/ text: Calluna) for everything concerning body text.
+
+There is still room for some size and spacing improvements, but so far, I'm delighted with the current state.
+
+## Portfolio and case studies
+A more prominent addition was the rebirth of my portfolio section. The last version of my personal site didn't have a dedicated page to list or showcase projects I've worked on. This portfolio section now has two clear purposes:
+
+1. Showcase some case studies that go deeper into past projects
+2. List different other project I do on the side to form a more full picture
+
+Everything besides the individual case studies follow the same subtle vibe of simple black and gray text paired with a solid typography hierarchy. As the case studies should get a bit more prominence, I've wrapped them into their own card-based object. These cards are also the starting point for case-study-based color themes. Every case study gets its own color theme — not as extreme as the old bold color themes, but some sprinkles help.
+
+A bit after I've released the first update, I rediscovered a (link: https://css-tricks.com/stacked-cards-with-sticky-positioning-and-a-dash-of-sass/ text: post on CSS-Tricks) I've saved on my Instapaper some weeks back. This post described a stacked cards effect on (link: https://corey.ginnivan.net text: Corey Ginnivan’s website), which I found so cool I needed to create the same on my case study section (full transparency where this idea originated).
+
+## Miscellaneous
+Besides these three main points, there were also some other changes:
+- Removed the /likes page (a place to showcase cool bookmarks)
+- Added a like button to individual posts (only I can see the like amount; the button increases the amount on every individual click)
+- You can still access the older version under different subdomains
+  - (link: https://2020.fruechtl.me text: 2020.fruechtl.me)
+  - (link: https://2018.fruechtl.me text: 2018.fruechtl.me)
+- Added support for a (link: https://css-tricks.com/how-to-create-a-skip-to-content-link/ text: Skip to Content) link
+- Used `<details>` and `<summary>` in the experience section under /about (better a11y and no JavaScript needed)
+
+I'll keep iterating on different smaller areas, but this was a high-level overview what I did with this site, besides moving to (link: https://getkirby.com text: Kirby CMS). Additionally, feel free to take a look at the (link: https://github.com/coolcut/fruechtl.me text: source code on GitHub).
+
+----
+
+Images: 
+
+----
+
+Date: 2021-04-27 19:55:00
+
+----
+
+Tags: Redesign, Design, Typography
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-04-18 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-04-18 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-04-18 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

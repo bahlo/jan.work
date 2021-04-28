@@ -1,0 +1,199 @@
+Title: Structured design templates in Figma
+
+----
+
+Text:
+
+As our design community at (link: https://bryter.com text: BRYTER) grew, new problems emerged. With more designers and collaborators, different file and organizing structures made it hard to understand design files and their state. 
+
+- What is the most recent iteration?
+- What is still work-in-progress?
+- What is ready for implementation? 
+- Are these comments still relevant?
+
+All these and many more questions bubbled up and made navigating through Figma files more and more complicated.
+
+Based on these problems, we set out to propose a universal structure to use for every new design file. For the first iteration, the questions and goals for our new Figma file structure were:
+
+1. How to make it clear whom to contact when somebody has questions about work inside a Figma file?
+2. How to separate different stages of a design process intuitively, so it doesn’t feel like an additional thing to keep in mind?
+3. How can we change basically nothing for developers, but also give them all the benefits if they decide to dig deeper into Figma files?
+4. How can we make feedback sessions (e.g. design critiques) more sustainable and persistent inside a file?
+5. Have everything in one file!
+
+## Basic outline
+Since we wanted everything in one single file, we needed to cover the common steps during our design process in this template, while also leaving space for flexibility. One clear first step for us was the introduction of a README page inside every design file. This README holds all the key information about the project, some helpful links as well as a glossary about the design template itself (not everybody might be familiar with it at any time, so having this helps).
+
+(image: readme.png)
+
+Because a dedicated "Handoff" page for designers/developer communication was already an appearing pattern, we doubled down on this and made it the first visible page after the README. Most developers frequenting this file want to see the final designs because they need to implement them at some point. Additionally, they also are the most important bits when quickly looking through old files to get a basic understanding.
+
+The next sections are all focused on helping designers structure their work more efficiently. With that in mind we created different dedicated sections for prototyping, exploration and feedback sessions. All these sections were meant to support as many sibling pages as needed by the creator.
+
+### Prototyping
+The dedicated prototyping section follows the idea that exploration and prototyping, while very close, are two different areas of activity. We should treat them this way to have more flexibility. Inside the prototyping section, you should focus on connecting different screens and components to build a Figma prototype - that’s it.
+
+### Exploration
+This section is focused on pure UX or visual exploration. Creation of maps, wireframes, pixel-perfect designs, in this section anything is possible and the designers are in full control. While the possibilities are limitless, this section isn't the right place to run full design critiques or build detailed prototypes because a lot can and should change here.
+
+### Feedback sessions
+While comments inside Figma are helpful, we learned that changes to designs are the enemy of Figma comments that stick to a specific location inside the Figma canvas. To prevent confusion and make comments more valuable long-term, we've decided to separate concerns and created a specific page for feedback. Designers can copy/paste these designs over into a feedback page and shouldn't touch it from this point forward. Everything stays the same and feedback makes sense even three years after a design critiques.
+
+### Components and Time Machine
+While these three section are the core of our template, we also added a section for file internal components (components that aren't inside our design system) as well as a section called Time Machine, which is based on the (link: https://www.figma.com/community/plugin/734492262527930956/Time-Machine text: Time Machine Figma plugin), which we use internally.
+
+(image: pages-overview.png)
+
+## Conclusion
+When looking back at the questions and goals we had before creating the design file templates, we see that all of them are now resolved. The key to get here was a clear separation between creation, feedback, testing and handoff. If we are strict with the fundamental blocks of this template (aka. the different sections), we can be more flexible inside each individual section.
+
+We lowered the bar to fully understand individual Figma files inside our design community as well as for other stakeholders. Regardless which information somebody is looking for, they should be able to find it by themselves and if not the README is always there as a last resort.
+
+If you want to take a look yourself, we (link: https://www.figma.com/community/file/968891414735497272/Design-Template text: released our template to the Figma Community).
+
+----
+
+Images:
+
+- readme.png
+- pages-overview.png
+
+----
+
+Date: 2021-04-28 19:00:00
+
+----
+
+Tags: Design Systems, Figma
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-04-24 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-04-24 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-04-24 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default
