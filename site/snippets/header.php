@@ -12,6 +12,8 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e7910c">
 
+  <meta name="theme-color" content="#fcf9f8">
+
   <?= css(['assets/css/main.css']) ?>
 </head>
 <body>
