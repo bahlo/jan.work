@@ -40,6 +40,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) index.php [L]
 
+# Redirect
+RewriteRule ^/?journal/(.*)$ /writing/$1 [R,L]
+
 </IfModule>
 
 # pass the Authorization header to PHP
