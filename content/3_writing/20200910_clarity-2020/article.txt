@@ -13,7 +13,8 @@ The whole team and the amazing Emcees (link: https://cattsmall.com text: Catt) a
 On top of the setting, all talks were very solid and each one had bits and pieces that will linger in my brain for some weeks to come. It exceeded my expectations of what a virtual conference can offer.
 
 But let’s focus on my takeaways.
-Gaps
+
+## Gaps
 
 One recurring topic in the sphere of design systems is about “bridging the gap” between design and development. In her talk, The Design Systems Spiral, (link: https://jina.design text: Jina Anne), rightfully asked why this gap even exists in the first place. She also underlined the fact that design systems are not only about the deliverables but people in general.
 
@@ -24,14 +25,16 @@ In Design Systems, or: How I learned to stop fighting and love the team (link: h
 > Design systems are the tool that allows one person to archive the results of another, without having to do the mental overhead to learn the mental model of another.
 
 While design systems can help with these things, they aren't a replacement for soft skills. In teams and collaboration, it should always be Us vs. The Problem and learning together as a team should be the focus.
-Never done
+
+##Never done
 
 Another prominent topic during these three days circled around the fact that, like almost everything, design systems are never done. Design systems are about people, collaboration, and the process itself.
 
 We as people who work on design systems can always improve components and tools, but we should focus more on the intermediate and personal things to solve.
 
 Our way of systematically thinking about problems can also help in other areas like team structures and collaboration. In his talk Designing teams. Designing systems. (link: https://faraimadzima.com text: Farai Madzima) talked about the similarities between design and team principles and how a shared language in these areas is needed to successfully collaborate. Create a glossary to improve the meaning of your language — this doesn’t only have to be for your design or development workflows. It also is very helpful for a company to make common words and phrases more clear for new-joiners. In the end, successful collaboration boils down to successful communication.
-Happiness & Inclusivity
+
+## Happiness & Inclusivity
 
 The last topic I want to talk about in this quick personal summary uses the whole spectrum from inclusive documentation to inclusive and accessible products. In her talk Creating Inclusive Content: Why it Matters (link: https://twitter.com/Brii_toe_knee text: Brittney Ball) gave a quick guide with an unbelievable amount of actionable suggestions on how to write and improve documentation.
 
@@ -44,13 +47,18 @@ In one of my favorite talks called Accessibility beyond color contrast (link: ht
 In the past, I also had conversations myself where accessibility only was recognized or thought about in the context of color contrast. This talk was a perfect example of how to improve general arguments and push more for things like performance and especially inclusive writing. All this helps with the goal of inclusive and accessible products.
 
 She also mentioned something that I still need to think about in more detail ⇒ Intuition is a myth! Consistency is intuition!
-Summary
+
+## Summary
 
 There is so much more to talk and think about. As I said already, I liked every talk and learned bits and pieces everywhere — which is an excellent sign for a conference, if you ask me.
 
 I genuinely enjoyed these three days very much and can highly recommend watching all the talks, if they will be published at some point. I don't know the details on this, sorry.
 
 Looking forward to next year!
+
+----
+
+Images: 
 
 ----
 
@@ -62,7 +70,7 @@ Tags: Design Systems
 
 ----
 
-Likes: 505849165502388584b01687f4af8170;7262b155f0b7f0692163c3290b0cb5fc;ee373d8c71899c2034de31b790a801cf;22a5506ca036c25e87c85efe011f05d8;f446f0f23ead68c684f6393fc9ef67e0;2851205310f1f0a17f72831f114701b2;ad4172941e2fdf554c1a9b8ac1aeb3c1;cf513bb3b1f5d47af0af4556e9d1e27f;
+Likes: 505849165502388584b01687f4af8170;7262b155f0b7f0692163c3290b0cb5fc;ee373d8c71899c2034de31b790a801cf;22a5506ca036c25e87c85efe011f05d8;f446f0f23ead68c684f6393fc9ef67e0;2851205310f1f0a17f72831f114701b2;ad4172941e2fdf554c1a9b8ac1aeb3c1;cf513bb3b1f5d47af0af4556e9d1e27f;73a345e744275288dceea5f2f86e9c46;048d407a9a9024e8554c426661b6809d;6074e8ce984d26deacd8036ef301b1f0;d5cc623966e72d3d1fcbd0fba3c7cbd3;5f4be53d5f8750e3584c6697dada9e1e;44aed9d6d3d3125c2afdc7dd355a0974;
 
 ----
 
