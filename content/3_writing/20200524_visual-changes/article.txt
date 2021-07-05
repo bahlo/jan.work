@@ -25,9 +25,9 @@ This all may sound very challenging, and it was to some degree, but from a pure 
 ```scss
 body {
   --background-color: #f5f3ef;
-  --text-primary-color: #{var(--black-90)};
-  --text-secondary-color: #{var(--black-60)};
-  --border-color: #{var(--black-10)};
+  --text-primary-color: #{var(--color-neutral-90)};
+  --text-secondary-color: #{var(--color-neutral-60)};
+  --border-color: #{var(--color-neutral-10)};
   --text-action-color: rgba(73, 71, 215, 0.9);
   --text-action-hover-color: rgba(73, 71, 215, 0.7);
 }

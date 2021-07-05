@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   padding: 48px 0;
-  border-top: 4px solid var(--black-10);
+  border-top: 4px solid var(--color-neutral-10);
   
   @media (min-width: 45rem) {
     padding: 72px 0;
@@ -41,11 +41,11 @@
 
   a {
     position: relative;
-    color: var(--black-60);
+    color: var(--color-neutral-60);
     text-decoration: none;
 
     &:hover {
-      color: var(--black-90);
+      color: var(--color-neutral-90);
     }
   }
 }
@@ -53,5 +53,5 @@
 .copyright {
   font-family: var(--font-headline);
   font-size: var(--size-400);
-  color: var(--black-60);
+  color: var(--color-neutral-60);
 }

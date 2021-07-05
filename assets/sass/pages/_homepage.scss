@@ -16,7 +16,7 @@
 .intro__slogan {
   font-family: var(--font-body);
   font-weight: 600;
-  color: var(--black-60);
+  color: var(--color-neutral-60);
 }
 
 .intro .link-enhanced {
@@ -60,11 +60,11 @@
 .preview__item-title {
   margin: 0 0 4px;
   a {
-    color: var(--black-90);
+    color: var(--color-neutral-90);
     text-decoration: none;
 
     &:hover {
-      color: #B8144B;
+      color: var(--color-interactive);
     }
   }
 }
@@ -73,5 +73,5 @@
   display: block;
   font-family: "Apercu", sans-serif;
   letter-spacing: 0.025rem;
-  color: var(--black-60);
+  color: var(--color-neutral-60);
 }

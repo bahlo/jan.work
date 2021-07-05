@@ -6,12 +6,8 @@ body {
   font-feature-settings: 'lnum' on;
   font-size: var(--size-500);
   line-height: 1.6;
-  color: var(--black-90);
-  background-color: #FCF9F8;
-}
-
-a:not([class]) {
-  color: currentColor;
+  color: var(--color-neutral-90);
+  background-color: var(--color-background);
 }
 
 :focus {

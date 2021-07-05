@@ -193,7 +193,7 @@ div.code-toolbar > .toolbar button {
 	font-family: var(--font-headline);
 	font-size: var(--size-300);
 	color: #FFFFFF;
-	background: var(--black-90);
+	background: var(--color-neutral-90);
 	border-radius: .5em;
 }
 
@@ -202,6 +202,6 @@ div.code-toolbar > .toolbar a:focus,
 div.code-toolbar > .toolbar button:hover,
 div.code-toolbar > .toolbar button:focus {
 	color: #FFFFFF;
-	background: var(--black-90);
+	background: var(--color-neutral-90);
 	text-decoration: none;
 }
