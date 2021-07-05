@@ -3,28 +3,55 @@
 namespace distantnative\Retour;
 
 use Kirby\Database\Database;
+use Kirby\Database\Query;
+use Kirby\Toolkit\Dir;
+use Kirby\Toolkit\F;
 
-class Log
+final class Log
 {
-
     /**
-     * @return \Kirby\Database\Database
+     * @var \Kirby\Database\Database
      */
-    public function db(): Database
+    protected $db;
+
+    public function __construct()
     {
-        return retour()->database;
+        // Get path to database file
+        $default = kirby()->root('logs') . '/retour/log.sqlite';
+        $file    = option('distantnative.retour.database', $default);
+
+        // Support callbacks for database file option
+        if (is_callable($file) === true) {
+            $file = $file();
+        }
+
+        // Make sure database is in place
+        if (F::exists($file) === false) {
+            $dir = dirname($file);
+
+            if (is_dir($dir) === false) {
+                Dir::make($dir);
+            }
+
+            F::copy(dirname(__DIR__, 2) . '/assets/retour.sqlite', $file);
+        }
+
+        // Connect to database
+        $this->db = new Database([
+            'type'     => 'sqlite',
+            'database' => $file
+        ]);
     }
 
     /**
      * Create a new record entry in database
      *
      * @param array $props
-     *
-     * @return bool
+     * @return int|false
      */
-    public function create(array $props): bool
+    public function add(array $props)
     {
-        return $this->db()->records()->insert([
+        return $this->table()->insert([
             'date'     => $props['date'] ?? date('Y-m-d H:i:s'),
             'path'     => $props['path'],
             'referrer' => $props['referrer'] ?? $_SERVER['HTTP_REFERER'] ?? null,
@@ -32,41 +59,49 @@ class Log
         ]);
     }
 
-    public function first(): array
+    /**
+     * @param string $sort
+     * @return array
+     */
+    protected function single(string $sort): array
     {
-        $result = $this->db()->records()
+        /** @var array|false */
+        $result = $this->table()
             ->select('date')
-            ->order('date ASC')
+            ->order($sort)
             ->fetch('array')
             ->first();
 
-        if ($result) {
-            return $result;
+        if ($result === false) {
+            return [];
         }
 
-        return [];
+        return $result;
+    }
+
+    /**
+     * @return \Kirby\Database\Query
+     */
+    public function table(): Query
+    {
+        return $this->db->records();
+    }
+
+    public function first(): array
+    {
+        return $this->single('date ASC');
     }
 
     public function last(): array
     {
-        $result = $this->db()->records()
-            ->select('date')
-            ->order('date DESC')
-            ->fetch('array')
-            ->first();
-
-        if ($result) {
-            return $result;
-        }
-
-        return [];
+        return $this->single('date DESC');
     }
 
     /**
      * Get all failed records
      *
-     * @param string $from  date sting (yyyy-mm-dd)
-     * @param string $to    date sting (yyyy-mm-dd)
+     * @param string $from date sting (yyyy-mm-dd)
+     * @param string $to date sting (yyyy-mm-dd)
      *
      * @return array
      */
@@ -77,9 +112,8 @@ class Log
         $to   .= ' 23:59:59';
 
         // Run query
-        $fails = $this->db()->records()
+        $fails = $this->table()
             ->select('
-                id,
                 path,
                 referrer,
                 MAX(date) AS last,
@@ -93,11 +127,14 @@ class Log
             ->fetch('array')
             ->all();
 
-        if ($fails === false) {
-            return [];
-        }
-
-        return $fails->toArray();
+        return $fails->toArray(function (array $entry) {
+            return [
+                'path'     => $entry['path'],
+                'referrer' => $entry['referrer'],
+                'last'     => $entry['last'],
+                'hits'     => (int)$entry['hits'],
+            ];
+        });
     }
 
 
@@ -108,8 +145,8 @@ class Log
      */
     public function flush(): bool
     {
-        $table = $this->db()->records()->delete();
-        $index = $this->db()->sqlite_sequence()->delete(['name' => 'records']);
+        $table = $this->table()->delete();
+        $index = $this->db->sqlite_sequence()->delete(['name' => 'records']);
         return $table && $index;
     }
 
@@ -121,14 +158,17 @@ class Log
     public function purge(): bool
     {
         // Get limit (in months) from option
-        $limit = option('distantnative.retour.deleteAfter', false);
+        $limit = Retour::meta()['deleteAfter'];
 
         if ($limit !== false) {
             // Get cutoff date by subtracting limit from today
             $time   = strtotime('-' . $limit . ' month');
             $cutoff = date('Y-m-d 00:00:00', $time);
 
-            return $this->db()->records()->delete('strftime("%s", date) < strftime("%s", :cutoff)', ['cutoff' => $cutoff]);
+            /** @var \Kirby\Database\Query $table */
+            $table = $this->table()->bindings(['cutoff' => $cutoff]);
+
+            return $table->delete('strftime("%s", date) < strftime("%s", :cutoff)');
         }
 
         return true;
@@ -137,35 +177,35 @@ class Log
     /**
      * Get all records for a redirect
      *
-     * @param array  $route redirect array
-     * @param string $from  date sting (yyyy-mm-dd)
-     * @param string $to    date sting (yyyy-mm-dd)
+     * @param string $path redirect path
+     * @param string $from date sting (yyyy-mm-dd)
+     * @param string $to date sting (yyyy-mm-dd)
      *
      * @return array
      */
-    public function redirect(array $route, string $from, string $to): array
+    public function redirect(string $path, string $from, string $to): array
     {
         // Add time to dates to capture full days
         $from .= ' 00:00:00';
         $to   .= ' 23:59:59';
 
         // Run query
-        $data = $this->db()->records()
+        /** @var array */
+        $data = $this->table()
             ->select('
                 COUNT(*) AS hits,
                 MAX(date) AS last
             ')
-            ->where(['redirect' => $route['from']])
+            ->where(['redirect' => $path])
             ->andWhere('strftime("%s", date) > strftime("%s", :start)', ['start' => $from])
             ->andWhere('strftime("%s", date) < strftime("%s", :end)', ['end' => $to])
-            ->fetch('array')->first();
+            ->fetch('array')
+            ->first();
 
-        if ($data === false) {
-            return $route;
-        }
-
-        // Add stats data to original redirect data
-        return array_merge($route, $data);
+        return [
+            'hits' => (int)$data['hits'],
+            'last' => $data['last']
+        ];
     }
 
     /**
@@ -173,20 +213,19 @@ class Log
      *
      * @param string $path
      * @param string $referrer
-     *
      * @return bool
      */
-    public function remove(string $path, string $referrer = null)
+    public function remove(string $path, string $referrer = null): bool
     {
-        $where = 'path = "' . $this->db()->escape($path) . '" AND referrer ';
+        $where = 'path = "' . $this->db->escape($path) . '" AND referrer ';
 
         if ($referrer === null) {
             $where .= 'IS NULL';
         } else {
-            $where .= '= "' . $this->db()->escape($referrer) . '"';
+            $where .= '= "' . $this->db->escape($referrer) . '"';
         }
 
-        return $this->db()->records()->delete($where);
+        return $this->table()->delete($where);
     }
 
     /**
@@ -198,7 +237,7 @@ class Log
      */
     public function resolve(string $path): bool
     {
-        return $this->db()->records()->update(
+        return $this->table()->update(
             ['wasResolved' => 1],
             ['path' => $path]
         );
@@ -207,9 +246,9 @@ class Log
     /**
      * Get stats data for specified timeframe and unit
      *
-     * @param string $unit  timeframe unit (year, month, ...)
-     * @param string $from  date sting (yyyy-mm-dd)
-     * @param string $to    date sting (yyyy-mm-dd)
+     * @param string $unit timeframe unit (year, month, ...)
+     * @param string $from date sting (yyyy-mm-dd)
+     * @param string $to date sting (yyyy-mm-dd)
      *
      * @return array
      */
@@ -239,7 +278,7 @@ class Log
                 break;
         }
         // Get data from database
-        $data = $this->db()->query('
+        $data = $this->db->query('
             with recursive dates as (
                 select :from as date
                 union all
@@ -272,16 +311,12 @@ class Log
             'fetch' => 'array'
         ]);
 
-        if ($data === false) {
-            return [];
-        }
-
-        return $data->toArray(function ($entry) {
+        return $data->toArray(function (array $entry) {
             return [
-                'date'       => (string) $entry['date'],
-                'failed'     => (int)    $entry['failed'],
-                'resolved'   => (int)    $entry['resolved'],
-                'redirected' => (int)    $entry['redirected'],
+                'date'       => (string)$entry['date'],
+                'failed'     => (int)$entry['failed'],
+                'resolved'   => (int)$entry['resolved'],
+                'redirected' => (int)$entry['redirected'],
             ];
         });
     }
