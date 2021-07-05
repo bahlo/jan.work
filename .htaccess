@@ -41,7 +41,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) index.php [L]
 
 # Redirect
-RewriteRule ^/?journal/(.*)$ /writing/$1 [R,L]
+RedirectMatch 301 /journal/(.*) https://fruechtl.me/writing/$1
+RedirectMatch 301 /feed.xml https://fruechtl.me/feed
+RedirectMatch 301 /journal/feed.xml https://fruechtl.me/feed
 
 </IfModule>
 
