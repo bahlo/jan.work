@@ -4,6 +4,9 @@
     <div class="secondary-navigation">
       <ul class="secondary-navigation__list">
         <li class="secondary-navigation__item">
+          <a href="https://notes.fruechtl.me">Notes</a>
+        </li>
+        <li class="secondary-navigation__item">
           <a href="https://photos.fruechtl.me">Photos</a>
         </li>
         <li class="secondary-navigation__item">
