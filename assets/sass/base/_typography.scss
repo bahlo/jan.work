@@ -20,12 +20,20 @@ h2 {
 
 h1,
 .title-1 {
-  font-size: var(--size-900);
+  font-size: var(--size-800);
+  
+  @media (min-width: 45rem) {
+    font-size: var(--size-900);
+  }
 }
 
 h2,
 .title-2 {
-  font-size: var(--size-800);
+  font-size: var(--size-700);
+  
+  @media (min-width: 45rem) {
+    font-size: var(--size-800);
+  }
 }
 
 h3,
