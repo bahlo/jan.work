@@ -6,4 +6,4 @@ Headline: Hey, I’m Jan!
 
 ----
 
-Slogan: I’m a designer who codes, specializing in design systems and scalable solutions who is currently living in Frankfurt am Main, Germany.
+Slogan: I’m a designer, specializing in design systems and scalable solutions who is currently living in Frankfurt am Main, Germany.

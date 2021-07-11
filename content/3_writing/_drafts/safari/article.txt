@@ -1,0 +1,178 @@
+Title: Safari
+
+----
+
+Text:
+
+This year, WWDC brought a redesign of Safari across all of Apple's platforms. As a heavy Safari user, it seems to me like these changes follow ideas we saw last year with a huge design update on macOS (I talked about the macOS design changes during (link: https://sprachnachrichten.fm/episoden/15/ text: one episode of a German podcast) I co-host).
+
+While Safari 15 comes with some neat ideas (Hello, Tab Groups), I want to focus on the design changes.
+
+## macOS
+As it is always advised to play with something, before jumping to early conclusions, I downloaded the (link: https://developer.apple.com/safari/technology-preview/ text: Safari Technology Preview) which gives also people running macOS Big Sur the chance to play with the new changes inside Safari.
+
+(image: safari-15.jpg)
+
+If we compare the two designs, we immediately see that the redesign focuses on a lot less options and interface element. Additionally, the concept of tabs and the URL bar are now merged, which, as Apple puts it, saves some additional space for content. While this argument might sound like a good solution at first, it comes with some downsides I want to highlight:
+
+### Tabs
+- The new tabs design results in many unnecessary animations
+- It's not possible to rearrange tabs by dragging them ⇒ dragging a tab drags the whole window
+
+Back/forward buttons now OUTSIDE current tab, feels illogical.
+How to control CURRENT tab? Tab controls disappear when selected
+
+## iOS
+
+## Visual updates to forms
+The native form elements also got a visual refresh. While I know that most apps or websites adjust the visual appearance of their form elements most of the time to match their brand, it doesn't mean that the following points don't have any ways on the way Apple is prioritizing their visual design efforts.
+
+Looking at these examples outlines one concern I have with recent visual designs from Apple - contrast. While the overall form elements are now more aligned with their iOS and macOS counterparts, they now also lack more contrast. Form elements like an *Input* or *Checkbox* are visually less contrast rich and therefore harder to see or scan for users. 
+
+While they might look lovely on screenshots or inside Figma on a 5K monitor, I find it more and more difficult to understand why Apple is moving into a direction of visual design that isn't benefitting any user.
+
+----
+
+Images:
+
+- safari-15.jpg
+
+----
+
+Date: 2021-07-06 00:00:00
+
+----
+
+Tags: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-07-06 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-07-06 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-07-06 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default
