@@ -21,7 +21,15 @@
         
         foreach($filteredProjects as $item): ?>
         <li class="preview__item">
-          <h3 class="preview__item-title title-4"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></h3>
+          <h3 class="preview__item-title title-4">
+          <?php if($item->type() == "case-study"): ?> 
+            <a href="<?= $item->url() ?>"><?= $item->title() ?></a>
+            <?php elseif ($item->type() == "project"): ?>
+            <a href="<?= $item->link() ?>"><?= $item->title() ?></a>
+            <?php elseif ($item->type() == "open-source"): ?>
+            <a href="<?= $item->link() ?>"><?= $item->title() ?></a>
+          <?php endif ?>
+          </h3>
           <span class="preview__item-caption title-6">
             <?php
               if($item->type() == "case-study") {
