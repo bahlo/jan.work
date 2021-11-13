@@ -1,4 +1,4 @@
-Title: Safari
+Title: Safari 15
 
 ----
 
@@ -12,6 +12,8 @@ While Safari 15 comes with some neat ideas (Hello, Tab Groups), I want to focus 
 As it is always advised to play with something, before jumping to early conclusions, I downloaded the (link: https://developer.apple.com/safari/technology-preview/ text: Safari Technology Preview) which gives also people running macOS Big Sur the chance to play with the new changes inside Safari.
 
 (image: safari-15.jpg)
+
+(image: safari-14.jpg)
 
 If we compare the two designs, we immediately see that the redesign focuses on a lot less options and interface element. Additionally, the concept of tabs and the URL bar are now merged, which, as Apple puts it, saves some additional space for content. While this argument might sound like a good solution at first, it comes with some downsides I want to highlight:
 
@@ -36,10 +38,11 @@ While they might look lovely on screenshots or inside Figma on a 5K monitor, I f
 Images:
 
 - safari-15.jpg
+- safari-14.jpg
 
 ----
 
-Date: 2021-07-06 00:00:00
+Date: 2021-07-13 00:00:00
 
 ----
 
