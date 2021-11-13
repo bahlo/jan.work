@@ -18,13 +18,11 @@
   <?= css(['assets/css/main.css']) ?>
 </head>
 <body>
-<a class="skip-link" href='#main'>Skip to content</a>
-<div class="wrapper">
+  <a class="skip-link" href='#main'>Skip to content</a>
   <header class="site-header">
-    <h1 class="site-title title-3">
-      <a href="/">Jan Früchtl</a>
+    <h1 class="site-title">
+      <a href="/">Jan Früchtl, Designer</a>
     </h1>
     <?php snippet('menu') ?>
   </header>
-</div>
-<main class="main-content" id="main">
+  <main class="main-content" id="main">

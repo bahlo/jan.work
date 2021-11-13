@@ -2,52 +2,24 @@
 ||  Custom Properties
 ------------------------------------------------------------------- */
 :root {
+  --container-width: 960px;
+  --container-width-small: 60ch;
+
   --font-headline: "Apercu", sans-serif;
-  --font-body: "Calluna", Georgia, 'Times New Roman', Times, serif;
+  --font-body: "Tiempos Text", Georgia, 'Times New Roman', Times, serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
-  --size-200: 0.64rem;
-  --size-300: 0.8rem;
-  --size-400: 1rem;
-  --size-500: 1.25rem;
-  --size-600: 1.563rem;
-  --size-700: 1.953rem;
-  --size-800: 2.441rem;
-  --size-900: 3.052rem;
+  --tint-color: #0000FF;  
+  --text-color-primary: #111827;
+  --text-color-secondary: #374151;
+  --text-color-tertiary: #6B7280;
 
-  --color-background: #FBF9F9;
-  --color-interactive: #B8144B;
-  
-  --color-neutral-5: rgba(0, 0, 0, 0.05);
-  --color-neutral-10: rgba(0, 0, 0, 0.1);
-  --color-neutral-30: rgba(0, 0, 0, 0.3);
-  --color-neutral-60: rgba(0, 0, 0, 0.6);
-  --color-neutral-90: rgba(0, 0, 0, 0.9);
-
-  --color-case-study-1: #{lighten(#DF4D52, 34%)};
-  --color-case-study-2: #{lighten(#F09552, 30%)};
-  --color-case-study-3: #{lighten(#F7CE55, 28%)};
-  --color-case-study-4: #{lighten(#56BCAF, 34%)};
-  --color-case-study-5: #{lighten(#4A66D2, 34%)};
-
-  --border-radius: 6px;
+  --border-radius: 5px;
+  --border-color: #E5E7EB;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: #0E0806;
-    --color-interactive: #E93571;
-    
-    --color-neutral-5: rgba(255, 255, 255, 0.05);
-    --color-neutral-10: rgba(255, 255, 255, 0.1);
-    --color-neutral-30: rgba(255, 255, 255, 0.3);
-    --color-neutral-60: rgba(255, 255, 255, 0.6);
-    --color-neutral-90: rgba(255, 255, 255, 0.9);
-    
-    --color-case-study-1: #{darken(#DF4D52, 34%)};
-    --color-case-study-2: #{darken(#F09552, 30%)};
-    --color-case-study-3: #{darken(#F7CE55, 28%)};
-    --color-case-study-4: #{darken(#56BCAF, 34%)};
-    --color-case-study-5: #{darken(#4A66D2, 34%)};
+    --tint-color: #0000FF;
   }
 }

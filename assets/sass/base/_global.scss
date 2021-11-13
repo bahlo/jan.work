@@ -3,18 +3,7 @@
 ------------------------------------------------------------------- */
 body {
   font-family: var(--font-body);
-  font-feature-settings: 'lnum' on;
-  font-size: var(--size-500);
-  line-height: 1.6;
-  color: var(--color-neutral-90);
-  background-color: var(--color-background);
-}
-
-:focus {
-  outline: 2px dashed;
-  outline-offset: 0.25rem;
-}
-
-main:focus {
-  outline: none;
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--text-color-primary);
 }

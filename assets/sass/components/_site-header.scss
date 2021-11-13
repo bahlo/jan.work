@@ -1,81 +1,59 @@
-/* ------------------------------------------------------------------
-||  Site Header
-------------------------------------------------------------------- */
 .site-header {
-  padding: 48px 0 0;
-  border-bottom: 4px solid var(--color-neutral-10);
-  
-  @media (min-width: 35rem) {
-    padding: 72px 0 0;
-  }
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(auto, var(--container-width-small)) minmax(0, 1fr);
+  grid-gap: 24px;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .site-title {
   margin: 0;
-  
-  @media (min-width: 35rem) {
-    margin: 0 0 24px;
-  }
+  display: flex;
+  font-size: 1.125rem;
+  line-height: 2rem;
 }
 
 .site-title a {
-  color: var(--color-neutral-90);
+  color: var(--text-color-primary);
   text-decoration: none;
-}
-
-.site-navigation {
-  position: relative;
-  padding: 16px 0;
   
-  @media (min-width: 35rem) {
-    padding: 24px 0;
+  &:hover, &:focus {
+    color: var(--tint-color);
   }
 }
 
 .site-navigation__list {
+  display: flex;
   margin: 0;
   padding: 0;
-  
-  @media (min-width: 35rem) {
-    display: flex;
-  }
 }
 
 .site-navigation__item {
+  margin-left: 32px;
+  font-size: 1.125rem;
+  line-height: 2rem;
   font-family: var(--font-headline);
 
-  @media (min-width: 35rem) {
-    margin-left: 48px;
-  
-    &:first-child {
-      margin-left: 0;
-    }
-  }
-
-  a {
-    position: relative;
-    color: var(--color-neutral-60);
-    text-decoration: none;
-
-    &:hover {
-      color: var(--color-neutral-90);
-    }
+  &:first-child {
+    margin: 0;
   }
 }
 
-.site-navigation__item a.active {
-  color: var(--color-neutral-90);
+.site-navigation__item a {
+  display: block;
+  color: var(--text-color-tertiary);
+  text-decoration: none;
 
-  @media (min-width: 35rem) {
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: -34px;
-      display: block;
-      height: 4px;
-      width: 100%;
-      background: var(--color-neutral-90);
-    }
+  &:hover, &:focus {
+    color: var(--tint-color);
+  }
+}
+
+.site-navigation__item--active {
+  font-weight: bold;
+  
+  a {
+    color: var(--tint-color);
   }
 }
 

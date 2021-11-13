@@ -2,10 +2,28 @@ title: Default Page
 preset: page
 
 fields:
-  headline:
-    label: Text
-    type: text
   slogan:
-    label: Text
+    label: Slogan
     type: textarea
     size: small
+  intro:
+    label: Intro
+    type: textarea
+    size: medium
+  experience:
+    label: Experience
+    type: structure
+    fields:
+      title:
+        label: Title
+        type: text
+      time:
+        label: Time
+        type: text
+      location:
+        label: Location
+        type: text
+      summary:
+        label: Summary
+        type: textarea
+        size: small

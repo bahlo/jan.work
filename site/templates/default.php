@@ -1,10 +1,10 @@
 <?php snippet('header') ?>
 
-<div class="wrapper">
-  <section class="default-page">
-    <h1 class="title-1 page-title"><?= $page->title() ?></h1>
+<section class="default-page">
+  <div class="wrapper wrapper--small">
+    <h2 class="title-1"><?= $page->title() ?></h2>
     <?= $page->text()->kt() ?>
-  </section>
-</div>
+  </div>
+</section>
 
 <?php snippet('footer') ?>

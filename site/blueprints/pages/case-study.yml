@@ -5,42 +5,22 @@ icon: ✨
 fields:
   company:
     type: text
-    width: 1/3
-    required: true
-  role:
-    type: text
-    width: 1/3
+    width: 1/2
     required: true
   year:
     type: text
-    width: 1/3
+    width: 1/2
     required: true
   responsibilities:
     type: tags
     max: 5
     required: true
-  homepage:
-    label: Show on homepage?
-    type: toggle
-    text: 
-      - "no"
-      - "yes"
-    width: 1/3
-  teaser:
-    label: Is this a teaser?
-    type: toggle
-    text: 
-      - "no"
-      - "yes"
-    width: 1/3
   type:
     label: Type
     type: select
     options:
       case-study: Case Study
       project: Project
-      open-source: Open Source
-    width: 1/3
   intro:
     type: textarea
     size: small

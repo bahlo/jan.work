@@ -1,9 +1,5 @@
-/* ------------------------------------------------------------------
-||  Article
-------------------------------------------------------------------- */
 .post-header {
   margin: 0 0 48px;
-  max-width: 60ch;
 }
 
 .post-title {
@@ -12,24 +8,18 @@
 
 .post-date { 
   display: block;
-  font-family: "Apercu", sans-serif;
+  font-family: var(--font-headline);
+  font-size: 1rem;
+  line-height: 1.25;
   letter-spacing: 0.025rem;
-  color: var(--color-neutral-60);
+  color: var(--text-color-tertiary);
 }
 
 .post-content {
   margin: 0 0 48px;
-  
-  p, ul, ol, .code-toolbar, .figure--inline {
-    max-width: 60ch;
-  }
 
   .code-toolbar {
     margin: 0 0 1.5rem;
-  }
-
-  blockquote {
-    max-width: calc(60ch - 22px);
   }
 }
 

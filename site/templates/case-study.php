@@ -1,8 +1,8 @@
 <?php snippet('header') ?>
 
-<article class="case-study<?= " case-study--" . $page->uid(); ?>">
-  <div class="wrapper">
-    <h1 class="title-1 page-title"><?= $page->title() ?></h1>
+<article class="case-study">
+  <div class="wrapper wrapper--small">
+    <h1 class="title-1 case-study-title"><?= $page->title() ?></h1>
     <h2 class="title-3 case-study-intro"><?= $page->intro() ?></h2>
   </div>
   <?php if($image = $page->images()->template('cover')->first()): ?>
@@ -14,10 +14,10 @@
     </div>
   </div>
   <?php endif ?>
-  <div class="wrapper case-study__content">
+  <div class="wrapper wrapper--small case-study__content">
     <?= $page->text()->toBlocks() ?>
   </div>
-  <div class="wrapper">
+  <div class="wrapper wrapper--small">
     <div class="case-study__information">
       <div class="case-study__information-bits">
         <div>

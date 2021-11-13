@@ -1,43 +1,32 @@
-/* ------------------------------------------------------------------
-||  Writing
-------------------------------------------------------------------- */
-.writing {
-  @media (min-width: 45rem) {
-    display: grid;
-    gap: 48px;
-    grid-template-columns: 60vw 1fr;
-  }
-  
-  @media (min-width: 60rem) {
-    grid-template-columns: 60ch 1fr;
-  }
+.writing-block {
+  margin: 0 0 48px;
 }
 
-.writing-tag-list {
+.writing__list {
+  display: grid;
+  gap: 24px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.writing-tag-item {
-  display: inline-block;
-  margin: 0 4px 8px 0;
-  font-size: var(--size-400);
+.writing__item-title {
+  margin: 0 0 4px;
+}
 
-  a {
-    display: block;
-    padding: 4px 8px;
-    font-family: var(--font-headline);
-    line-height: 1.25;
-    text-decoration: none;
-    color: var(--color-neutral-60);
-    border: 1px solid var(--color-neutral-30);
-    border-radius: var(--border-radius);
-    
-    &:hover {
-      color: var(--color-interactive);
-      background-color: rgba($color: var(--color-interactive), $alpha: 0.1);
-      border: 1px solid var(--color-interactive);
-    }
+.writing__item-title a {
+  color: var(--text-color-primary);
+  text-decoration: none;
+  
+  &:hover, &:focus {
+    color: var(--tint-color);
   }
+}
+
+.writing__item-caption {
+  display: block;
+  font-family: var(--font-headline);
+  font-size: 1rem;
+  line-height: 1.25;
+  color: var(--text-color-tertiary);
 }

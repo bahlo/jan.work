@@ -1,6 +1,6 @@
 </main>
-<div class="wrapper">
-  <footer class="site-footer">
+<footer class="site-footer">
+  <div class="site-footer-content">
     <div class="secondary-navigation">
       <ul class="secondary-navigation__list">
         <li class="secondary-navigation__item">
@@ -8,12 +8,6 @@
         </li>
         <li class="secondary-navigation__item">
           <a href="https://photos.fruechtl.me">Photos</a>
-        </li>
-        <li class="secondary-navigation__item">
-          <a href="https://changelog.fruechtl.me">Personal Changelog</a>
-        </li>
-        <li class="secondary-navigation__item">
-          <a href="<?php echo url("podcasts"); ?>">Podcasts</a>
         </li>
         <li class="secondary-navigation__item">
           <a href="<?php echo url("feed"); ?>">Feed</a>
@@ -24,8 +18,8 @@
       </ul>
     </div>
     <span class="copyright">© 2021</span>
-  </footer>
-</div>
+  </div>
+</footer>
 <?php if($page->template() == "article"): ?>
 <?= js(['assets/js/prism.js']) ?>
 <?php endif ?>
