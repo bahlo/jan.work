@@ -1,9 +1,0 @@
-Title: Podlovers
-
-----
-
-Website: https://podlovers.org
-
-----
-
-Feed: https://feeds.podlovers.org/mp3

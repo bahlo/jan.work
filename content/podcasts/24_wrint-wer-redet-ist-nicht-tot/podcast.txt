@@ -1,9 +1,0 @@
-Title: WRINT: Wer redet ist nicht tot
-
-----
-
-Website: http://www.wrint.de
-
-----
-
-Feed: https://www.wrint.de/feed/podcast/

@@ -1,9 +1,0 @@
-Title: Alles gesagt?
-
-----
-
-Website: http://www.zeit.de/serie/alles-gesagt
-
-----
-
-Feed: https://allesgesagt.podigee.io/feed/mp3

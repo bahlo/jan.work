@@ -1,4 +1,4 @@
-Title: usephoton / photon-11ty
+Title: Photon 11ty
 
 ----
 
@@ -6,7 +6,7 @@ Homepage: false
 
 ----
 
-Type: open-source
+Type: project
 
 ----
 

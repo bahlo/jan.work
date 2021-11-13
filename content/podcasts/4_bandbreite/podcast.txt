@@ -1,9 +1,0 @@
-Title: Bandbreite
-
-----
-
-Website: https://bandbreite.fm
-
-----
-
-Feed: https://bandbreite.fm/?feed=mp3

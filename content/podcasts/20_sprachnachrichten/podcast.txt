@@ -1,9 +1,0 @@
-Title: Sprachnachrichten
-
-----
-
-Website: https://sprachnachrichten.fm
-
-----
-
-Feed: https://sprachnachrichten.fm/feed/mp3/

@@ -6,23 +6,11 @@ Company: BRYTER
 
 ----
 
-Role: Product Designer
-
-----
-
 Year: 2021
 
 ----
 
 Responsibilities: Project Lead, Design Direction, Product Management
-
-----
-
-Homepage: false
-
-----
-
-Teaser: false
 
 ----
 

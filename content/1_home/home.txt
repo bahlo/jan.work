@@ -1,0 +1,90 @@
+Title: About
+
+----
+
+Slogan: Jan Früchtl is a hybrid design engineer, working on accessible user experiences and scalable design systems at BRYTER.
+
+----
+
+Intro:
+
+I am a designer, developer, and podcaster. I am currently living in Frankfurt am Main, Germany. My natural habitat is at the intersection of design, development, and product management. This is where I feel most comfortable and can contribute best.
+
+Right now, I'm working at BRYTER, where I'm focused on building our open-source design system called Bliss. Before BRYTER I have been working for companies like Clark, FastBill and REICHHART.
+
+In my spare time, I work on different side projects, open-source projects and co-host two podcasts.
+
+Bandbreite is a group podcast with friends from university (where the podcast originated). It's focused on general tech and our experiences as designers and developers.
+
+Sprachnachrichten is a podcast focused on productivity and self-improvement in the digital space. It started in 2020, and I'm happy to be co-hosting this podcast with a good friend of mine.
+
+If you want to get in touch, feel free to find all the different ways to reach out on my elsewhere page.
+
+----
+
+Experience:
+
+- 
+  title: Design Systems Lead at BRYTER
+  time: 'October 2020 - Present'
+  location: Remote
+  summary: >
+    Focused on building the internal design
+    system, Bliss. Our design system helps
+    our cross-functional teams to develop
+    features more consistently, efficiently
+    and accessible. I tend to switch roles
+    between Designer, Developer and Product
+    Manager for Bliss to support where I can
+    contribute best.
+  company: BRYTER
+- 
+  title: Product Designer at BRYTER
+  time: 'July 2019 - October 2020'
+  location: Remote
+  summary: >
+    Focused on supporting different
+    cross-functional teams at BRYTER with
+    early explorations and concepts for new
+    features. Worked with different areas of
+    the product like our admin console,
+    editor or services. Started internal
+    design systems efforts and implemented
+    team methodologies like design critiques
+    and improved design-development
+    collaboration.
+  company: BRYTER
+- 
+  title: Product Designer at Clark
+  time: 'April 2019 - July 2019'
+  location: Frankfurt am Main, Germany
+  summary: >
+    I supported the team with visual design
+    work for the white-label product.
+    Besides that, I contributed and confirm
+    the needs to move Clark into a stage to
+    branch out to different countries like
+    Austria.
+  company: Clark
+- 
+  title: Product Designer at FastBill
+  time: 'April 2018 - April 2019'
+  location: Frankfurt am Main, Germany
+  summary: |
+    As a solo designer, I wore different hats and supported different initiatives and projects. One of my big projects was the concept and development of the new “advance VAT return” (USt-VA) feature. This feature helped our customers in executing a recurring tax tasks more quickly and safely.
+    
+    Other parts of my focus were on the onboarding experience. Additionally, I supported the reframing of the company vision with workshops, concepts and initial prototypes to confirm and test ideas.
+  company: FastBill
+- 
+  title: Product Designer at REICHHART
+  time: 'August 2015 - April 2018'
+  location: Frankfurt am Main, Germany
+  summary: >
+    Working on the design across their Web
+    and Android applications. Moved between
+    research, concepts, high-fidelity
+    prototypes and frontend code to support
+    the development team. Led the
+    development of the internal design
+    system for both, Web and Android.
+  company: REICHHART digital logistics

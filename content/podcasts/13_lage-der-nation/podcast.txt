@@ -1,9 +1,0 @@
-Title: Lage der Nation
-
-----
-
-Website: https://lagedernation.org
-
-----
-
-Feed: https://feeds.lagedernation.org/feeds/ldn-aac.xml

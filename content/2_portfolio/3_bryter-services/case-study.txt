@@ -6,23 +6,11 @@ Company: BRYTER
 
 ----
 
-Role: Product Designer
-
-----
-
 Year: 2020
 
 ----
 
 Responsibilities: Product Design, UX & UI, User Testing
-
-----
-
-Homepage: false
-
-----
-
-Teaser: true
 
 ----
 
@@ -34,4 +22,4 @@ Intro:
 
 ----
 
-Text: []
+Text: 
