@@ -1,1 +1,5 @@
 Title: Portfolio
+
+----
+
+Intro: Below you can find a selection of case studies showcasing some of the work I did other the past years. You can also find open-source work I do on (link: https://github.com/coolcut text: GitHub).

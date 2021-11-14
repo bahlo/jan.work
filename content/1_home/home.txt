@@ -2,23 +2,19 @@ Title: About
 
 ----
 
-Slogan: Jan Früchtl is a hybrid design engineer, working on accessible user experiences and scalable design systems at BRYTER.
+Slogan: Jan Früchtl is a hybrid design engineer, working on inclusive user experiences and scalable design systems at BRYTER.
 
 ----
 
 Intro:
 
-I am a designer, developer, and podcaster. I am currently living in Frankfurt am Main, Germany. My natural habitat is at the intersection of design, development, and product management. This is where I feel most comfortable and can contribute best.
+My natural habitat is at the intersection of design, engineering, and product management. With over seven years of experience in design, this is where I feel most comfortable and able to support the teams I work with the most.
 
-Right now, I'm working at BRYTER, where I'm focused on building our open-source design system called Bliss. Before BRYTER I have been working for companies like Clark, FastBill and REICHHART.
+I enjoy thinking strategically and building scalable systems while asking numerous questions, trying to understand the context of the problem space as much as possible. I love elegant user experiences and care deeply about inclusive design and accessible solutions that are built for all people.
 
-In my spare time, I work on different side projects, open-source projects and co-host two podcasts.
+When I'm not working, I co-host the (link: https://sprachnachrichten.fm text: Sprachnachrichten) podcast, which is focused on productivity and self-improvement in the digital space. Besides that, I also work on different side projects like (link: https://couchtim.es text: CouchTimes).
 
-Bandbreite is a group podcast with friends from university (where the podcast originated). It's focused on general tech and our experiences as designers and developers.
-
-Sprachnachrichten is a podcast focused on productivity and self-improvement in the digital space. It started in 2020, and I'm happy to be co-hosting this podcast with a good friend of mine.
-
-If you want to get in touch, feel free to find all the different ways to reach out on my elsewhere page.
+If you're interested in getting in touch, you can find me on (link: https://twitter.com/_coolcut text: Twitter), on (link: https://github.com/coolcut text: GitHub) where I work on my side projects in the open, or you are welcome to (email: jan@fruechtl.me text: email me).
 
 ----
 
@@ -29,62 +25,63 @@ Experience:
   time: 'October 2020 - Present'
   location: Remote
   summary: >
-    Focused on building the internal design
-    system, Bliss. Our design system helps
-    our cross-functional teams to develop
-    features more consistently, efficiently
-    and accessible. I tend to switch roles
-    between Designer, Developer and Product
-    Manager for Bliss to support where I can
-    contribute best.
+    Focus on establishing the internal
+    design system and building a team and
+    structures to support it. Improve
+    accessibility of new components, design,
+    and usage guidelines in the design
+    system documentation.
   company: BRYTER
 - 
   title: Product Designer at BRYTER
   time: 'July 2019 - October 2020'
   location: Remote
   summary: >
-    Focused on supporting different
-    cross-functional teams at BRYTER with
-    early explorations and concepts for new
-    features. Worked with different areas of
-    the product like our admin console,
-    editor or services. Started internal
-    design systems efforts and implemented
-    team methodologies like design critiques
-    and improved design-development
-    collaboration.
+    Design exploration and first concepts
+    for new “Services” feature. Led
+    design in various teams to solve early
+    customer needs inside the editor (e.g.
+    version history) and admin console (e.g.
+    user management).
   company: BRYTER
 - 
   title: Product Designer at Clark
   time: 'April 2019 - July 2019'
   location: Frankfurt am Main, Germany
   summary: >
-    I supported the team with visual design
-    work for the white-label product.
-    Besides that, I contributed and confirm
-    the needs to move Clark into a stage to
-    branch out to different countries like
-    Austria.
+    Support design work for white-label
+    product. Research around the approach to
+    move Clark into the Austrian insurance
+    market.
   company: Clark
 - 
   title: Product Designer at FastBill
   time: 'April 2018 - April 2019'
   location: Frankfurt am Main, Germany
-  summary: |
-    As a solo designer, I wore different hats and supported different initiatives and projects. One of my big projects was the concept and development of the new “advance VAT return” (USt-VA) feature. This feature helped our customers in executing a recurring tax tasks more quickly and safely.
-    
-    Other parts of my focus were on the onboarding experience. Additionally, I supported the reframing of the company vision with workshops, concepts and initial prototypes to confirm and test ideas.
+  summary: >
+    Lead design of big new “advance VAT
+    return” feature. Improving onboarding
+    experience and support reframing of the
+    company vision with workshops, concepts,
+    and early prototypes.
   company: FastBill
 - 
   title: Product Designer at REICHHART
   time: 'August 2015 - April 2018'
   location: Frankfurt am Main, Germany
   summary: >
-    Working on the design across their Web
-    and Android applications. Moved between
-    research, concepts, high-fidelity
-    prototypes and frontend code to support
-    the development team. Led the
-    development of the internal design
-    system for both, Web and Android.
+    Research, concepts, visual design, and
+    prototyping across Web and Android
+    applications. Led development of
+    internal design system (Web and
+    Android).
+  company: REICHHART digital logistics
+- 
+  title: Freelance Designer
+  time: '2014 - 2018'
+  location: Remote
+  summary: >
+    Product design and web design for
+    smaller companies or in collaboration
+    with digital agencies.
   company: REICHHART digital logistics

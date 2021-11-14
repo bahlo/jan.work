@@ -6,6 +6,10 @@ Company: FastBill
 
 ----
 
+Role: Product Designer
+
+----
+
 Year: 2018
 
 ----
