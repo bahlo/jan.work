@@ -39,10 +39,12 @@ ol {
 
 a {
   color: var(--tint-color);
-  text-decoration: none;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  text-decoration-skip-ink: none;
+  text-decoration-color: var(--text-color-primary);
   
   &:hover {
-    text-decoration: underline;
     text-decoration-color: var(--tint-color);
   }
 }

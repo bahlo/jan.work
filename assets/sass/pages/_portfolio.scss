@@ -3,20 +3,13 @@
   margin: 0 0 72px;
 }
 
-.portfolio-items {
-  display: grid;
-  gap: 48px;
-}
-
 .portfolio-case-studies-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-}
-
-.project-list--simple {
-  gap: 24px;
-  max-width: 60ch;
+  
+  @media (min-width: 72rem) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* ------------------------------------------------------------------
@@ -27,7 +20,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 32px;
-  height: 256px;
+  min-height: 256px;
   background: linear-gradient(128deg, #F9FAFB 8%, #FFFFFF 96%);
   border-radius: var(--border-radius);
   box-shadow: 0 0 0 1px var(--border-color);
@@ -38,6 +31,11 @@
     text-decoration: none;
     box-shadow: 0 0 0 2px var(--tint-color);
   }
+
+  @media (min-width: 72rem) {
+    height: 256px;
+    min-height: auto;
+  }
 }
 
 .project-title {
@@ -46,9 +44,13 @@
 }
 
 .project-description {
-  margin: 0;
+  margin: 0 0 32px;
   font-size: 1rem;
   color: var(--text-color-secondary);
+  
+  @media (min-width: 72rem) {
+    margin: 0;
+  }
 }
 
 .project-details {
@@ -69,6 +71,15 @@
 
 .portfolio-side-projects-item__title {
   margin: 0 0 4px;
+}
+
+.portfolio-side-projects-item__title a {
+  color: var(--text-color-primary);
+  text-decoration: none;
+  
+  &:hover, &:focus {
+    color: var(--tint-color);
+  }
 }
 
 .portfolio-side-projects-item__description p {
