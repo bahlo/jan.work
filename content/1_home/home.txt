@@ -50,9 +50,10 @@ Experience:
   location: Frankfurt am Main, Germany
   summary: >
     Support design work for white-label
-    product. Research around the approach to
-    move Clark into the Austrian insurance
-    market.
+    product. Research potential approaches
+    to move Clark into the Austrian
+    insurance market (from a customer and
+    design perspective).
   company: Clark
 - 
   title: Product Designer at FastBill
