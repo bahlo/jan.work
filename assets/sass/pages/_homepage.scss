@@ -3,8 +3,15 @@
 }
 
 .intro-slogan {
-  margin: 0 0 32px;
+  margin: 0 0 24px;
   font-family: var(--font-body);
+  font-size: 1.75rem;
+  line-height: 1.35;
+  
+  @media (min-width: 72rem) {
+    margin: 0 0 32px;
+    font-size: 2.25rem;
+  }
 }
 
 .experiences-list {
@@ -16,24 +23,38 @@
 }
 
 .experiences-item {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 24px;
+  @media (min-width: 72rem) {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 24px;
+  }
 }
 
 .experiences-item__time {
-  grid-column: span 3;
   font-family: var(--font-headline);
+  
+  @media (min-width: 72rem) {
+    grid-column: span 3;
+  }
 }
 
 .experiences-item__time span {
-  font-size: 1.125rem;
+  display: block;
+  margin: 0 0 4px;
+  font-size: 1rem;
   line-height: 1.25;
   color: var(--text-color-tertiary);
+  
+  @media (min-width: 72rem) {
+    margin: 0;
+    font-size: 1.125rem;
+  }
 }
 
 .experiences-item__content {
-  grid-column: span 5;
+  @media (min-width: 72rem) {
+    grid-column: span 5;
+  }
 }
 
 .experiences-item__header {
@@ -41,14 +62,14 @@
 }
 
 .experiences-item__title {
-  margin: 0 0 2px;
+  margin: 0 0 4px;
 }
 
 .experiences-item__location {
   display: block;
   font-family: var(--font-headline);
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.25;
   color: var(--text-color-tertiary);
 }
 

@@ -3,7 +3,7 @@
 ------------------------------------------------------------------- */
 :root {
   --container-width: 960px;
-  --container-width-small: 60ch;
+  --container-width-small: 62ch;
 
   --font-headline: "Apercu", sans-serif;
   --font-body: "Tiempos Text", Georgia, 'Times New Roman', Times, serif;
@@ -16,6 +16,8 @@
 
   --border-radius: 5px;
   --border-color: #E5E7EB;
+
+  --background-color: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {

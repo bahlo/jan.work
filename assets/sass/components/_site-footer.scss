@@ -3,7 +3,7 @@
 ------------------------------------------------------------------- */
 .site-footer {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(auto, var(--container-width-small)) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(auto, calc(var(--container-width-small) - 32px)) minmax(0, 1fr);
   grid-gap: 24px;
   padding: 24px 0;
   border-top: 1px solid var(--border-color);

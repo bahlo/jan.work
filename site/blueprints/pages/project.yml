@@ -3,13 +3,6 @@ preset: page
 icon: 🏗
 
 fields:
-  homepage:
-    label: Show on homepage?
-    type: toggle
-    text: 
-      - "no"
-      - "yes"
-    width: 1/2
   type:
     label: Type
     type: select
@@ -17,7 +10,6 @@ fields:
       case-study: Case Study
       project: Project
       open-source: Open Source
-    width: 1/2
   link:
     label: Link
     type: text

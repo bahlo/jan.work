@@ -13,7 +13,7 @@
       <ul class="writing__list">
         <?php foreach($itemsPerYear->flip() as $item) : ?>
           <li class="writing__item">
-            <h3 class="writing__item-title title-3"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></h3>
+            <h3 class="writing__item-title title-2"><a href="<?= $item->url() ?>"><?= $item->title() ?></a></h3>
             <time class="writing__item-caption"><?= $item->date()->toDate('l, F jS Y') ?></time>
           </li>
           <?php endforeach; ?>
