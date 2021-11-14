@@ -8,13 +8,13 @@ Slogan: Jan Früchtl is a hybrid design engineer, working on inclusive user expe
 
 Intro:
 
-My natural habitat is at the intersection of design, engineering, and product management. With over seven years of experience in design, this is where I feel most comfortable and able to support the teams I work with the most.
+My natural habitat is at the intersection of design, engineering, and product management. With over seven years of experience in design, this is where I feel most comfortable to support the teams I work with to the highest degree.
 
-I enjoy thinking strategically and building scalable systems while asking numerous questions, trying to understand the context of the problem space as much as possible. I love elegant user experiences and care deeply about inclusive design and accessible solutions that are built for all people.
+I enjoy strategic challenges and building scalable systems while asking numerous questions, trying to understand the context of the given problem space as much as possible. I love elegant user experiences and care deeply about inclusive design and accessible solutions that are built for all people.
 
-When I'm not working, I co-host the (link: https://sprachnachrichten.fm text: Sprachnachrichten) podcast, which is focused on productivity and self-improvement in the digital space. Besides that, I also work on different side projects like (link: https://couchtim.es text: CouchTimes).
+When I'm not working, I co-host the (link: https://sprachnachrichten.fm text: Sprachnachrichten) podcast, which is focused on productivity and self-improvement. Besides that, I also work on different side projects like (link: https://couchtim.es text: CouchTimes).
 
-If you're interested in getting in touch, you can find me on (link: https://twitter.com/_coolcut text: Twitter), on (link: https://github.com/coolcut text: GitHub) where I work on my side projects in the open, or you are welcome to (email: jan@fruechtl.me text: email me).
+If you're interested in getting in touch, you can find me on (link: https://twitter.com/_coolcut text: Twitter), or on (link: https://github.com/coolcut text: GitHub) where I work on my side projects in the open, or you are welcome to (email: jan@fruechtl.me text: email me).
 
 ----
 
@@ -25,12 +25,12 @@ Experience:
   time: 'October 2020 - Present'
   location: Remote
   summary: >
-    Focus on establishing the internal
+    Focus on establishing our internal
     design system and building a team and
-    structures to support it. Improve
-    accessibility of new components, design,
-    and usage guidelines in the design
-    system documentation.
+    structures to support it. Improve the
+    accessibility, design, usage guidelines
+    and documentation of new and existing
+    components.
   company: BRYTER
 - 
   title: Product Designer at BRYTER
@@ -59,8 +59,8 @@ Experience:
   time: 'April 2018 - April 2019'
   location: Frankfurt am Main, Germany
   summary: >
-    Lead design of big new “advance VAT
-    return” feature. Improving onboarding
+    Lead design of new “advance VAT
+    return” feature. Improve onboarding
     experience and support reframing of the
     company vision with workshops, concepts,
     and early prototypes.
@@ -72,7 +72,7 @@ Experience:
   summary: >
     Research, concepts, visual design, and
     prototyping across Web and Android
-    applications. Led development of
+    applications. Lead development of
     internal design system (Web and
     Android).
   company: REICHHART digital logistics
