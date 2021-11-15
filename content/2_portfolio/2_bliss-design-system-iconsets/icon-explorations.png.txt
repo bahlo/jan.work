@@ -1,5 +1,0 @@
-Alt: Screenshot from a Figma frame with different icon styles.
-
-----
-
-Template: blocks/image

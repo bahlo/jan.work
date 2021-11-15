@@ -8,11 +8,11 @@ Slogan: Jan Früchtl is a hybrid design engineer, working on inclusive user expe
 
 Intro:
 
-My natural habitat is at the intersection between design and engineering. With over seven years of experience in product design, this is where I feel most comfortable to support the teams I work with to the highest degree.
+My natural habitat is at the intersection of design and engineering. With over seven years of experience in product design, this is where I feel most comfortable to support the teams I work with to the highest degree.
 
-I enjoy strategic challenges and building scalable systems while asking numerous questions, trying to understand the context of the given problem space as much as possible. I love elegant user experiences and care deeply about inclusive design and accessible solutions that are built for all people.
+I'm a systems thinker who enjoys building scalable solutions while asking numerous questions, trying to understand the context of the given problem space as much as possible. I love elegant user experiences and care deeply about inclusive design and accessible solutions that are built for all people.
 
-When I'm not working, I co-host the (link: https://sprachnachrichten.fm text: Sprachnachrichten) podcast, which is focused on productivity and self-improvement. Besides that, I also work on different side projects like (link: https://couchtim.es text: CouchTimes).
+When I'm not working, I co-host the (link: https://sprachnachrichten.fm text: Sprachnachrichten) podcast, which is focused on productivity and self-improvement in the digital age. Besides that, I also work on different side projects like (link: https://couchtim.es text: CouchTimes).
 
 If you're interested in getting in touch, you can find me on (link: https://twitter.com/_coolcut text: Twitter), or on (link: https://github.com/coolcut text: GitHub) where I work on my side projects in the open, or you are welcome to (email: jan@fruechtl.me text: email me).
 
@@ -42,7 +42,8 @@ Experience:
     design in various teams to solve early
     customer needs inside the editor (e.g.
     version history) and admin console (e.g.
-    user management).
+    user management). Also started the
+    design system initiative.
   company: BRYTER
 - 
   title: Product Designer at Clark
@@ -52,8 +53,7 @@ Experience:
     Support design work for white-label
     product. Research potential approaches
     to move Clark into the Austrian
-    insurance market (from a customer and
-    design perspective).
+    insurance market.
   company: Clark
 - 
   title: Product Designer at FastBill
@@ -83,6 +83,7 @@ Experience:
   location: Remote
   summary: >
     Product design and web design for
-    smaller companies or in collaboration
-    with digital agencies.
+    smaller companies or together with
+    digital agencies. Freelancing gigs where
+    mostly part-time.
   company: REICHHART digital logistics

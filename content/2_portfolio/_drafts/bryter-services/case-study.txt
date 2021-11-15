@@ -6,11 +6,15 @@ Company: BRYTER
 
 ----
 
+Role: Product Designer
+
+----
+
 Year: 2020
 
 ----
 
-Responsibilities: Product Design, UX & UI, User Testing
+Responsibilities: UX & UI, User Testing, Product Design, Early Concepts
 
 ----
 
@@ -18,8 +22,8 @@ Type: case-study
 
 ----
 
-Intro: 
+Intro: A new level to the BRYTER platform that enables customers to automate complex workflows and create truly self-service solutions.
 
 ----
 
-Text: 
+Text: [{"content":{"level":"h2","text":"Overview"},"id":"f08b8247-f3d3-4d6f-ba8c-a1848e9518ec","isHidden":false,"type":"heading"},{"content":{"text":"<p>The introduction of \u201cServices\u201d created a whole new level of opportunities for BRYTER customers and added a whole new level of power to the BRYTER platform. Before \u201cServices\u201d, BRYTER was a great tool for creating tools to automate processes and get knowledge from experts into a piece of software that could be used by others later on. The addition of \u201cServices\u201d not only added a simpler grouping mechanism for related BRYTER modules (the name of software pieces created with BRYTER), but also add additional functionality (e.g. databases) that only live in this one scope.<\/p>"},"id":"550419b7-d2be-46d6-a085-da0c91ca9dcb","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"Challenge"},"id":"c4e76179-48af-4275-bea0-36bc4cbf4cbf","isHidden":false,"type":"heading"},{"content":{"level":"h2","text":"Approach"},"id":"5daf0b78-facd-4a66-be37-2e197fe6c34a","isHidden":false,"type":"heading"},{"content":{"level":"h2","text":"Implementation"},"id":"847a4f16-bb21-4e7f-9c95-b2aac7b9242a","isHidden":false,"type":"heading"},{"content":{"level":"h2","text":"What I\u2019ve learned"},"id":"d27e0df1-d789-4127-a2bc-8ae88eb74cd7","isHidden":false,"type":"heading"}]

@@ -1,5 +1,0 @@
-Alt: Screenshot from Figma with a before and after comparison from a list with icons paired with text content
-
-----
-
-Template: blocks/image

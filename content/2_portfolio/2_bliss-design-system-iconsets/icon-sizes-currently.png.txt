@@ -1,5 +1,0 @@
-Alt: Screenshot from Notion with a list of all different icon sizes in use
-
-----
-
-Template: blocks/image
