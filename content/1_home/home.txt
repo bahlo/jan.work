@@ -8,7 +8,7 @@ Slogan: Jan Früchtl is a hybrid design engineer, working on inclusive user expe
 
 Intro:
 
-My natural habitat is at the intersection of design and engineering. With over seven years of experience in product design, this is where I feel most comfortable to support the teams I work with to the highest degree.
+My natural habitat is at the intersection of design and engineering. With over seven years of experience in product design, this is where I feel most effective to support the teams I collaborate with.
 
 I'm a systems thinker who enjoys building scalable solutions while asking numerous questions, trying to understand the context of the given problem space as much as possible. I love elegant user experiences and care deeply about inclusive design and accessible solutions that are built for all people.
 
@@ -42,8 +42,8 @@ Experience:
     design in various teams to solve early
     customer needs inside the editor (e.g.
     version history) and admin console (e.g.
-    user management). Also started the
-    design system initiative.
+    user management). Started design system
+    initiative early on.
   company: BRYTER
 - 
   title: Product Designer at Clark
