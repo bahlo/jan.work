@@ -51,6 +51,15 @@
       border-radius: var(--border-radius);
     }
   }
+
+  figcaption {
+    @media (min-width: 680px) {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 16px;
+      max-width: var(--container-width-small);
+    }
+  }
 }
 
 /* ------------------------------------------------------------------
@@ -90,4 +99,13 @@
   font-size: var(--size-500);
   line-height: 1.25;
   color: var(--black-60);
+}
+
+.case-study__gallery-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

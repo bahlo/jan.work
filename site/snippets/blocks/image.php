@@ -16,19 +16,21 @@ if ($block->location() == 'web') {
 
 <?php if ($src): ?>
 
-<figure>
-  <?php if ($link->isNotEmpty()): ?>
-  <a href="<?= $link->toUrl() ?>">
+<div class="wrapper">
+  <figure>
+    <?php if ($link->isNotEmpty()): ?>
+    <a href="<?= $link->toUrl() ?>">
+      <img src="<?= $src ?>" alt="<?= $alt ?>">
+    </a>
+    <?php else: ?>
     <img src="<?= $src ?>" alt="<?= $alt ?>">
-  </a>
-  <?php else: ?>
-  <img src="<?= $src ?>" alt="<?= $alt ?>">
-  <?php endif ?>
+    <?php endif ?>
 
-  <?php if ($caption->isNotEmpty()): ?>
-  <figcaption>
-    <?= $caption ?>
-  </figcaption>
-  <?php endif ?>
-</figure>
+    <?php if ($caption->isNotEmpty()): ?>
+    <figcaption>
+      <?= $caption ?>
+    </figcaption>
+    <?php endif ?>
+  </figure>
+</div>
 <?php endif ?>

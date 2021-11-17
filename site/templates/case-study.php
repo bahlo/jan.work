@@ -14,7 +14,7 @@
     </div>
   </div>
   <?php endif ?>
-  <div class="wrapper wrapper--small case-study__content">
+  <div class="case-study__content">
     <?= $page->text()->toBlocks() ?>
   </div>
   <div class="wrapper wrapper--small">

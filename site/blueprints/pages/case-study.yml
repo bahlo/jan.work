@@ -51,6 +51,7 @@ fields:
         type: group
         fieldsets:
           - image
+          - gallery
           - video
       code:
         label: Code
