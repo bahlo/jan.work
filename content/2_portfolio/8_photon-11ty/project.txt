@@ -1,0 +1,17 @@
+Title: Photon 11ty
+
+----
+
+Homepage: false
+
+----
+
+Type: project
+
+----
+
+Link: https://github.com/usephoton/photon-11ty
+
+----
+
+Text: A fast and straightforward way to publish your photos with (link: https://www.11ty.dev text: 11ty).
