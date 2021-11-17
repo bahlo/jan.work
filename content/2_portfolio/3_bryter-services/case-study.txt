@@ -18,7 +18,7 @@ Responsibilities: UX & UI, User Testing, Product Design, Early Concepts
 
 ----
 
-Type: case-study
+Type: teaser
 
 ----
 

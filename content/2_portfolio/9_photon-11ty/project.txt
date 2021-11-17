@@ -2,10 +2,6 @@ Title: Photon 11ty
 
 ----
 
-Homepage: false
-
-----
-
 Type: project
 
 ----

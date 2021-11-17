@@ -2,10 +2,6 @@ Title: Sprachnachrichten
 
 ----
 
-Homepage: true
-
-----
-
 Type: project
 
 ----
