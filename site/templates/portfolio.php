@@ -13,7 +13,7 @@
 <section class="portfolio-case-studies">
   <div class="wrapper">
     <div class="portfolio-case-studies-list">
-    <?php foreach($projects->filterBy('type', 'case-study')->limit(5) as $item) : ?>
+    <?php foreach($projects->filterBy('type', 'case-study') as $item) : ?>
       <?php snippet('portfolio/case-study', ['data' => $item]) ?>
     <?php endforeach; ?>
     </div>
