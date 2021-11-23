@@ -1,4 +1,7 @@
 fields:
+  caption:
+    label: Caption
+    type: text
   alt:
     label: Alt Text
     type: text

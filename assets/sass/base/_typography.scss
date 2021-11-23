@@ -68,7 +68,8 @@ figure {
   margin: 0 0 1.5rem;
 }
 
-figcaption {
+figcaption,
+.case-study__gallery-caption {
   display: block;
   margin-top: 8px;
   font-family: var(--font-headline);
