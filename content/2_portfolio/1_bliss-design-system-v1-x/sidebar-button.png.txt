@@ -1,1 +1,9 @@
+Caption: More complex variant support setup for the button component.
+
+----
+
+Alt: Screenshot from Figma showing the button component with the variant sidebar and additional information.
+
+----
+
 Template: blocks/image

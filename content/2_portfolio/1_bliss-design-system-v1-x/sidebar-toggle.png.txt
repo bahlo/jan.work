@@ -1,1 +1,9 @@
+Caption: Figma variant support with additional information around the code availability of the toggle component.
+
+----
+
+Alt: Screenshot from Figma showing three toggle components with the variant sidebar and additional information.
+
+----
+
 Template: blocks/image
