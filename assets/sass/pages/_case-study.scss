@@ -43,7 +43,11 @@
 }
 
 .case-study__content {
-  margin-bottom: 4.5rem;
+  margin-bottom: 3rem;
+  
+  @media (min-width: 680px) {
+    margin-bottom: 4.5rem;
+  }
   
   figure {
     img {
@@ -67,12 +71,17 @@
 ------------------------------------------------------------------- */
 .case-study__information {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
-  padding: 3rem;
+  gap: 16px;
+  padding: 1.5rem;
   background: linear-gradient(128deg, #F9FAFB 8%, #FFFFFF 96%);
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
+  
+  @media (min-width: 680px) {
+    gap: 48px;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+  }
 
   h4 {
     margin: 0 0 .25rem;
@@ -103,9 +112,12 @@
 
 .case-study__gallery-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-gap: 24px;
   margin: 0;
   padding: 0;
   list-style: none;
+  
+  @media (min-width: 680px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
