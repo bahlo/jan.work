@@ -9,7 +9,7 @@
   <div class="case-study-cover">
     <div class="wrapper">
       <figure class="case-study-cover__image">
-        <img src="<?= $image->url() ?>" alt="">
+        <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
       </figure>
     </div>
   </div>
