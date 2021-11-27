@@ -2,7 +2,7 @@
 
 <section class="intro">
   <div class="wrapper wrapper--small">
-    <h1 class="intro-slogan title-1"><?= $page->slogan()->html() ?></h1>
+    <h2 class="intro-slogan title-1"><?= $page->slogan()->html() ?></h2>
     <?= $page->intro()->kirbytext() ?>
   </div>
 </section>

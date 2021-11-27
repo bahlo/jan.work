@@ -5,7 +5,7 @@
 
 <section class="portfolio-intro">
   <div class="wrapper wrapper--small">
-    <h1 class="title-1"><?= $page->title() ?></h1>
+    <h2 class="title-1"><?= $page->title() ?></h2>
     <?= $page->intro()->kirbytext() ?>
   </div>
 </section>

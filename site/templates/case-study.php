@@ -2,8 +2,8 @@
 
 <article class="case-study">
   <div class="wrapper wrapper--small">
-    <h1 class="title-1 case-study-title"><?= $page->title() ?></h1>
-    <h2 class="title-3 case-study-intro"><?= $page->intro() ?></h2>
+    <h2 class="title-1 case-study-title"><?= $page->title() ?></h2>
+    <span class="title-3 case-study-intro"><?= $page->intro() ?></span>
   </div>
   <?php if($image = $page->images()->template('cover')->first()): ?>
   <div class="case-study-cover">
