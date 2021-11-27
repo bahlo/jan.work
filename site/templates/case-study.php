@@ -21,20 +21,20 @@
     <div class="case-study__information">
       <div class="case-study__information-bits">
         <div>
-          <h4 class="title-5">Position</h4>
+          <span class="case-study__information-title">Position</span>
           <span class="case-study__information-text"><?= $page->role() ?></span>
         </div>
         <div>
-          <h4 class="title-5">Company</h4>
+          <span class="case-study__information-title">Company</span>
           <span class="case-study__information-text"><?= $page->company() ?></span>
         </div>
         <div>
-          <h4 class="title-5">Year</h4>
+          <span class="case-study__information-title">Year</span>
           <span class="case-study__information-text"><?= $page->year() ?></span>
         </div>
       </div>
       <div>
-        <h4 class="title-5">Responsibilities</h4>
+        <span class="case-study__information-title">Responsibilities</span>
         <ul class="case-study__information-responsibilities">
         <?php foreach ($page->responsibilities()->split() as $item): ?>
           <li class="case-study__information-text"><?= $item ?></li>
