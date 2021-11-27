@@ -1,1 +1,9 @@
+Caption: 
+
+----
+
+Alt: Screenshot from the overview page of the Bliss docs.
+
+----
+
 Template: cover

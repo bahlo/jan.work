@@ -1,1 +1,9 @@
+Caption: 
+
+----
+
+Alt: Screenshot from a documentation example, showing "When to use a toggle?" usage guidelines.
+
+----
+
 Template: blocks/image

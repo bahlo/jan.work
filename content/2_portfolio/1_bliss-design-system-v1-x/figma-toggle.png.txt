@@ -1,1 +1,9 @@
+Caption: 
+
+----
+
+Alt: Screenshot from Figma showing the variants grid showing different states of toggle components.
+
+----
+
 Template: blocks/image

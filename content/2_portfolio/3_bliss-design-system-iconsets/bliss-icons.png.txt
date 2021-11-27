@@ -1,1 +1,9 @@
+Caption: 
+
+----
+
+Alt: Screenshot showing a lot of different icons from the Bliss Icons library.
+
+----
+
 Template: cover

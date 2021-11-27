@@ -1,1 +1,9 @@
+Caption: 
+
+----
+
+Alt: Screenshot showing the Bliss legacy documentation with a deprecation notice to use new components.
+
+----
+
 Template: blocks/image

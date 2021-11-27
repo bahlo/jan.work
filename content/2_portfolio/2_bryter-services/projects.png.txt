@@ -1,3 +1,11 @@
+Caption: 
+
+----
+
+Alt: A visually refreshed "Services" overview page with a grid-based card layout. Similar black header as before with a little more space for the navigation and a sidebar next to the grid-based card layout for additional information.
+
+----
+
 Sort: 13
 
 ----

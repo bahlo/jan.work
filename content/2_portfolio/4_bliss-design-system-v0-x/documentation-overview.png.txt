@@ -1,1 +1,9 @@
+Caption: 
+
+----
+
+Alt: The overview page of the first documentation website, running on zeroheight.
+
+----
+
 Template: cover

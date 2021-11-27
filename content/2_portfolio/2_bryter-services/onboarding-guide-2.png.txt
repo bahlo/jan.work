@@ -1,3 +1,11 @@
+Caption: 
+
+----
+
+Alt: Screenshot from a case database onboarding screen step showing a big illustration on top.
+
+----
+
 Template: blocks/image
 
 ----

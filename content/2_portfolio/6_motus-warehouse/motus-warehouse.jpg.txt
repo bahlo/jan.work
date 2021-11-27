@@ -1,1 +1,9 @@
+Caption: 
+
+----
+
+Alt: An example screenshot from a handling unit details page, showing a tracking list.
+
+----
+
 Template: cover
