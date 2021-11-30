@@ -25,7 +25,11 @@ if ($block->location() == 'web') {
       <img srcset="<?= $imageSrc->srcset([400, 800, 1000, 1500, 2000]) ?>" src="<?= $src ?>" alt="<?= $alt ?>">
     </a>
     <?php else: ?>
-    <img srcset="<?= $imageSrc->srcset([400, 800, 1000, 1500, 2000]) ?>" src="<?= $src ?>" alt="<?= $alt ?>">
+      <picture>
+        <source srcset="<?= $image->srcset(['400w'  => ['width' => 400, 'format' => 'avif'], '800w'  => ['width' => 800, 'format' => 'avif'], '1000w'  => ['width' => 1000, 'format' => 'avif'], '1500w'  => ['width' => 1500, 'format' => 'avif'], '2000w' => ['width' => 2000, 'format' => 'avif']]) ?>" type="image/avif">
+        <source srcset="<?= $image->srcset(['400w'  => ['width' => 400, 'format' => 'webp'], '800w'  => ['width' => 800, 'format' => 'webp'], '1000w'  => ['width' => 1000, 'format' => 'webp'], '1500w'  => ['width' => 1500, 'format' => 'webp'], '2000w' => ['width' => 2000, 'format' => 'webp']]) ?>" type="image/webp">
+        <img srcset="<?= $imageSrc->srcset([400, 800, 1000, 1500, 2000]) ?>" src="<?= $src ?>" alt="<?= $alt ?>">
+      </picture>
     <?php endif ?>
 
     <?php if ($caption->isNotEmpty()): ?>
