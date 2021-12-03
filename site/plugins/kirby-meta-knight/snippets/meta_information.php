@@ -11,21 +11,23 @@
       'quality' => 80,
       'crop'    => true
     ];
-    
-  if(option('diesdasdigital.meta-knight.siteTitleAsHomePageTitle', true) && $page->isHomePage()) {
+
+  if(option('diesdasdigital.meta-knight.siteTitleAsHomePageTitle', false) && $page->isHomePage()) {
     $full_title = $site->meta_title()->or($site->title());
+  } elseif(option('diesdasdigital.meta-knight.pageTitleAsHomePageTitle', false) && $page->isHomePage()) {
+    $full_title = $page->meta_title()->or($page->title());
   } elseif (option('diesdasdigital.meta-knight.siteTitleAfterPageTitle', true)) {
-    $full_title =  $page->meta_title()->or($page->title()) . ' - ' . $site->meta_title()->or($site->title());
+    $full_title =  $page->meta_title()->or($page->title()) . option('diesdasdigital.meta-knight.separator', ' - ') . $site->meta_title()->or($site->title());
   } else {
-    $full_title =  $site->meta_title()->or($site->title()) . ' - ' . $page->meta_title()->or($page->title());
+    $full_title =  $site->meta_title()->or($site->title()) . option('diesdasdigital.meta-knight.separator', ' - ') . $page->meta_title()->or($page->title());
   }
 
 ?>
 
 <?php // Basic Meta Information ?>
-  
+
 <?php // Schema ?>
-  
+
 <style itemscope itemtype="https://schema.org/WebSite" itemref="schema_name schema_description schema_image"></style>
 
 <?php // Page Title ?>
@@ -43,17 +45,28 @@
 <meta name="description" content="<?= $page->meta_description()->or($site->meta_description()) ?>">
 <meta id="schema_description" itemprop="description" content="<?= $page->meta_description()->or($site->meta_description()) ?>">
 
-<?php // Keywords ?>
-
-<meta name="keywords" content="<?= $page->meta_keywords()->or($site->meta_keywords()) ?>">
-
 <?php // Canonical URL ?>
-  
-<link rel="canonical" href="<?= $page->meta_canonical_url()->or($page->url()) ?>" />
+
+<?php if ($page->meta_canonical_url()->isNotEmpty()): ?>
+  <link rel="canonical" href="<?= $page->meta_canonical_url() ?>" />
+<?php else: ?>
+  <link rel="canonical" href="<?= $page->canonicalUrl() ?>" />
+<?php endif; ?>
+
+<?php // Alternate languages ?>
+
+<?php if ($kirby->languages()->count() > 0): ?>
+  <?php foreach ($kirby->languages() as $language): ?>
+    <link rel="alternate" hreflang="<?= strtolower(html($language->code())) ?>" href="<?= $page->url($language->code()) ?>">
+  <?php endforeach; ?>
+  <link rel="alternate" hreflang="x-default" href="<?= $page->url($kirby->defaultLanguage()->code()) ?>">
+<?php endif ?>
 
 <?php // Image ?>
 
-<meta id="schema_image" itemprop="image" content="<?= $page->meta_image()->or($site->meta_image()) ?>">
+<?php if ($meta_image = $page->meta_image()->toFile() ?? $site->meta_image()->toFile()): ?>
+  <meta id="schema_image" itemprop="image" content="<?= $meta_image->url() ?>">
+<?php endif; ?>
 
 <?php // Author ?>
 
@@ -61,21 +74,21 @@
 
 <?php // Date ?>
 
-<meta name="date" content="<?= $page->modified('Y-m-d') ?>" scheme="YYYY-MM-DD">
+<meta name="date" content="<?= $page->modified('Y-m-d') ?>">
 
 <?php // Open Graph ?>
 
-<meta property="og:title" content="<?= $page->og_title()->or($page->meta_title())->or($page->title()) ?>">
+<meta property="og:title" content="<?= $page->og_title()->or($page->meta_title())->or($site->og_title())->or($site->meta_title())->or($page->title()) ?>">
 
 <meta property="og:description" content="<?= $page->og_description()->or($page->meta_description())->or($site->meta_description()) ?>">
 
 <?php if ($og_image = $page->og_image()->toFile() ?? $site->og_image()->toFile()): ?>
   <meta property="og:image" content="<?= $og_image->thumb($og_image_thumb)->url() ?>">
-  <meta property="og:width" content="<?= $og_image->thumb($og_image_thumb)->width() ?>">
-  <meta property="og:height" content="<?= $og_image->thumb($og_image_thumb)->height() ?>">
+  <meta property="og:image:width" content="<?= $og_image->thumb($og_image_thumb)->width() ?>">
+  <meta property="og:image:height" content="<?= $og_image->thumb($og_image_thumb)->height() ?>">
 <?php endif; ?>
 
-<meta property="og:site_name" content="<?= $page->og_site_name()->or($site->og_site_name()) ?>">
+<meta property="og:site_name" content="<?= $page->og_site_name()->or($site->og_site_name())->or($site->meta_title())->or($site->title()) ?>">
 
 <meta property="og:url" content="<?= $page->og_url()->or($page->url()) ?>">
 
@@ -114,7 +127,7 @@
 
 <meta name="twitter:card" content="<?= $page->twitter_card_type()->or($site->twitter_card_type())->value() ?>">
 
-<meta name="twitter:title" content="<?= $page->twitter_title()->or($page->meta_title())->or($page->title()) ?>">
+<meta name="twitter:title" content="<?= $page->twitter_title()->or($page->meta_title())->or($site->twitter_title())->or($site->meta_title())->or($page->title()) ?>">
 
 <meta name="twitter:description" content="<?= $page->twitter_description()->or($page->meta_description())->or($site->meta_description()) ?>">
 
