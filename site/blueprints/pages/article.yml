@@ -38,11 +38,6 @@ tabs:
                 type: date
                 time: true
                 default: now
-              tags:
-                label: Tags
-                type: tags
-                options: query
-                query: site.index.pluck("tags", ",", true)
               likes:
                 label: Likes
                 type: likes
