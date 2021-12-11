@@ -1,0 +1,16 @@
+.post-content h3 {
+  margin: 0;
+}
+
+.post-content h3 a {
+  text-decoration: none;
+}
+
+.post-content h3 a:hover {
+  color: var(--tint-color);
+  text-underline-offset: 4px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-skip-ink: none;
+  text-decoration-color: var(--tint-color);
+}

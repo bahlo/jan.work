@@ -12,10 +12,8 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e7910c">
 
-  <meta name="theme-color" content="#fcf9f8" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#fcf9f8" media="(prefers-color-scheme: dark)">
-
   <?= css(['assets/css/main.css']) ?>
+  <?= css($page->files()->filterBy('extension', 'css')->pluck('url')) ?>
 </head>
 <body>
   <a class="skip-link" href='#main'>Skip to content</a>
