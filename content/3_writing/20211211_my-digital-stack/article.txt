@@ -4,26 +4,24 @@ Title: My digital stack
 
 Text:
 
-In the past, I was always a big fan of “What's in my bag” posts or videos. Not a lot is more interesting to me seeing how others structure their work and gear they use daily.
-
-This is a collection of the digital tools I use on a near daily basis:
+I've always been a fan of “What's in your bag” (link: https://www.theverge.com/whats-in-your-bag text: posts). Understanding how others structure their work and seeing what gear they use daily is captivating to me. As I work from home, and bags aren't a considerable topic for me at the moment (specifically work-related), let's do something different. Here is a collection of the digital tools I use on a near daily basis:
 
 ## Design
 
 ### (link: https://www.figma.com text: Figma)
-My primary product design tool for some years and use daily to do my work.
+Figma is my design tool of choice for some years now. I use it daily, and it is great, especially for collaborating with colleagues.
 
 ### (link: https://www.loom.com text: Loom)
-Asynchronous communication is essential in a remote work setup. Loom makes it easy and comfortable to record quick video explanations about challenges, ideas, or updates to share with my team.
+Asynchronous communication is essential in a remote work setup. Loom makes it easy and convenient to record quick video explanations about challenges, ideas, or updates to share with my team.
 
 ### (link: https://usecontrast.com text: Contrast)
-A tiny little macOS application to quickly access to (link: https://www.w3.org/WAI/standards-guidelines/wcag/ text: WCAG) color contrast ratios.
+A tiny macOS menu bar application to quickly check (link: https://www.w3.org/WAI/standards-guidelines/wcag/ text: WCAG) color contrasts.
 
 ### (link: https://michelf.ca/projects/sim-daltonism/ text: Sim Daltonism)
-Sim Daltonism is a great too to visualize colors as they are perceived with various types of color blindness.
+A great tool to visualize colors as they are perceived with various types of color blindness. I use Sim Daltonism often during my design process to check bigger pieces of a user interface or component.
 
 ### (link: https://eagle.cool text: Eagle)
-The place where I save visual references or inspiration for later use.
+The place where I save visual references or inspirations for later use. With Eagle, everything gets saved on my machine, no cloud service or external servers necessary.
 
 ## Development
 
@@ -31,51 +29,52 @@ The place where I save visual references or inspiration for later use.
 My code editor of choice — nothing more, nothing less.
 
 ### (link: https://www.netlify.com text: Netlify)
-The place where I host most of the sites I have on the web (this one is the exception). It's just very fast, simple and a joy to use.
+The place where I host most of the sites I have on the web (this one is the exception).
 
 ### (link: https://getkirby.com text: Kirby)
-The CMS that powers this very site.
+The CMS that powers this very site, and my natural choice for building websites that need a CMS-based backend or a bit more dynamic functionality.
 
 ### (link: https://www.11ty.dev text: 11ty)
 For all other sites I have on the web, I use 11ty as my static site generator of choice. Fast, simple and just beautiful to use.
 
 ### (link: https://plausible.io text: Plausible)
-Tiny little analytics tool my websites. Made and hosted in the EU. 100% self-funded and independent.
+A tiny analytics tool for my websites. Made and hosted in the EU. 100% self-funded and independent.
 
 ## Productivity
 
 ### (link: https://obsidian.md text: Obsidian)
+Basically, my second brain and in-depth knowledge base about all the things. Local markdown files and powerful customization options make it one of the greatest apps of the past years.
 
 ### (link: https://culturedcode.com/things/ text: Things)
-Currently, my getting things done app of choice. So simple, so beautiful, and it has everything for me to get things done.
+Currently, my getting things done app of choice. So simple, so beautiful, and it has everything I need to get things done.
 
 ### (link: https://www.raycast.com text: Raycast)
-A fancier and way more powerful macOS Spotlight alternative.
+A fancier and more powerful macOS Spotlight alternative with numerous options for additional 3rd party extensions.
 
 ### (link: https://fig.io text: Fig)
-I love the terminal and CLI tools, but I often struggle with using the correct commands. Fig adds autocomplete support into my terminal, which not only makes me a fast terminal users but I also learn commands way better.
+I love the terminal and CLI tools, but I often struggle with using the correct commands. Fig adds autocomplete support into my terminal and makes me a fast and happier terminal user.
 
 ### (link: https://languagetool.org text: LanguageTool)
-
+LanguageTool is my trusted writing companion and helps me find silly spelling mistakes.
 
 ## Reading
 
 ### (link: https://netnewswire.com text: NetNewsWire)
-A free and open-source RSS reader I use daily. With iCloud sync enabled, this is all I need from RSS.
+A free and open-source RSS reader I use daily. With iCloud sync enabled, this is all I need from RSS. RSS is love.
 
 ### (link: https://www.instapaper.com text: Instapaper)
 Everything I want to revisit or read later gets sent into Instapaper first. Based on this backlog, I decide if I want to read or bookmark it.
 
 ### (link: https://readwise.io text: Readwise)
-One of the best tools I've found in the past years. It not only saves highlights from books or articles, but also can handle tweet threads or other media.
+One of the best tools I've found in the past years. It not only saves highlights from books or articles, but also can handle and saves tweet threads and other media types for reference.
 
 ## Miscellaneous
 
 ### (link: https://cleanshot.com text: Cleanshot)
-One of the best mac utiltiies out there for screenshots, annotations and much more.
+One of the best mac utiltiies out there for screenshots, annotations etc.
 
 ### (link: https://www.macbartender.com text: Bartender)
-Tiny menu bar is the best menu bar.
+A tiny and tidy menu bar is the better menu bar.
 
 ### (link: https://1password.com text: 1Password)
 S👏A👏F👏E👏 P👏A👏S👏S👏W👏O👏R👏D👏S
@@ -86,8 +85,6 @@ While I'm not really a playlist person, Spotify just works better for me when it
 ### (link: https://overcast.fm text: Overcast)
 I listed to many podcasts and Overcast gives me the best listening experience.
 
-### (link: https://pi-hole.net text: Pi-Hole)
-
 ### (link: https://signal.org text: Signal)
 My messenger of choice next to iMessage.
 
@@ -95,7 +92,7 @@ My messenger of choice next to iMessage.
 My default Twitter app across all platforms. It's efficient and beautiful, not much more to say.
 
 ### (link: https://moneymoney-app.com text: MoneyMoney)
-Most of the time, interfaces from banks aren't a great experience. MoneyMoney is a fast and native Mac application that connects to almost all German banks (at least all banks I use) and makes all basic interactions with your bank account easy and enjoyable.
+Most of the time, banks don't have a great digital experience. MoneyMoney is a fast and native Mac application that connects to almost all German banks (at least all banks I use) and makes all basic interactions with your bank account easy and enjoyable.
 
 ----
 
@@ -103,7 +100,7 @@ Images:
 
 ----
 
-Date: 2021-12-03 00:00:00
+Date: 2021-12-11 13:00:00
 
 ----
 
