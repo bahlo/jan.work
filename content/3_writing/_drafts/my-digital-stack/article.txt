@@ -1,0 +1,242 @@
+Title: My digital stack
+
+----
+
+Text:
+
+In the past, I was always a big fan of “What's in my bag” posts or videos. Not a lot is more interesting to me seeing how others structure their work and gear they use daily.
+
+This is a collection of the digital tools I use on a near daily basis:
+
+## Design
+
+### (link: https://www.figma.com text: Figma)
+My primary product design tool for some years and use daily to do my work.
+
+### (link: https://www.loom.com text: Loom)
+Asynchronous communication is essential in a remote work setup. Loom makes it easy and comfortable to record quick video explanations about challenges, ideas, or updates to share with my team.
+
+### (link: https://usecontrast.com text: Contrast)
+A tiny little macOS application to quickly access to (link: https://www.w3.org/WAI/standards-guidelines/wcag/ text: WCAG) color contrast ratios.
+
+### (link: https://michelf.ca/projects/sim-daltonism/ text: Sim Daltonism)
+Sim Daltonism is a great too to visualize colors as they are perceived with various types of color blindness.
+
+### (link: https://eagle.cool text: Eagle)
+The place where I save visual references or inspiration for later use.
+
+## Development
+
+### (link: https://code.visualstudio.com text: VS Code)
+My code editor of choice — nothing more, nothing less.
+
+### (link: https://www.netlify.com text: Netlify)
+The place where I host most of the sites I have on the web (this one is the exception). It's just very fast, simple and a joy to use.
+
+### (link: https://getkirby.com text: Kirby)
+The CMS that powers this very site.
+
+### (link: https://www.11ty.dev text: 11ty)
+For all other sites I have on the web, I use 11ty as my static site generator of choice. Fast, simple and just beautiful to use.
+
+### (link: https://plausible.io text: Plausible)
+Tiny little analytics tool my websites. Made and hosted in the EU. 100% self-funded and independent.
+
+## Productivity
+
+### (link: https://obsidian.md text: Obsidian)
+
+### (link: https://culturedcode.com/things/ text: Things)
+Currently, my getting things done app of choice. So simple, so beautiful, and it has everything for me to get things done.
+
+### (link: https://www.raycast.com text: Raycast)
+A fancier and way more powerful macOS Spotlight alternative.
+
+### (link: https://fig.io text: Fig)
+I love the terminal and CLI tools, but I often struggle with using the correct commands. Fig adds autocomplete support into my terminal, which not only makes me a fast terminal users but I also learn commands way better.
+
+### (link: https://languagetool.org text: LanguageTool)
+
+
+## Reading
+
+### (link: https://netnewswire.com text: NetNewsWire)
+A free and open-source RSS reader I use daily. With iCloud sync enabled, this is all I need from RSS.
+
+### (link: https://www.instapaper.com text: Instapaper)
+Everything I want to revisit or read later gets sent into Instapaper first. Based on this backlog, I decide if I want to read or bookmark it.
+
+### (link: https://readwise.io text: Readwise)
+One of the best tools I've found in the past years. It not only saves highlights from books or articles, but also can handle tweet threads or other media.
+
+## Miscellaneous
+
+### (link: https://cleanshot.com text: Cleanshot)
+One of the best mac utiltiies out there for screenshots, annotations and much more.
+
+### (link: https://www.macbartender.com text: Bartender)
+Tiny menu bar is the best menu bar.
+
+### (link: https://1password.com text: 1Password)
+S👏A👏F👏E👏 P👏A👏S👏S👏W👏O👏R👏D👏S
+
+### (link: https://www.spotify.com text: Spotify)
+While I'm not really a playlist person, Spotify just works better for me when it comes to suggestions or Release Radar.
+
+### (link: https://overcast.fm text: Overcast)
+I listed to many podcasts and Overcast gives me the best listening experience.
+
+### (link: https://pi-hole.net text: Pi-Hole)
+
+### (link: https://signal.org text: Signal)
+My messenger of choice next to iMessage.
+
+### (link: https://tapbots.com/tweetbot/ text: Tweetbot)
+My default Twitter app across all platforms. It's efficient and beautiful, not much more to say.
+
+### (link: https://moneymoney-app.com text: MoneyMoney)
+Most of the time, interfaces from banks aren't a great experience. MoneyMoney is a fast and native Mac application that connects to almost all German banks (at least all banks I use) and makes all basic interactions with your bank account easy and enjoyable.
+
+----
+
+Images: 
+
+----
+
+Date: 2021-12-03 00:00:00
+
+----
+
+Tags: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2021-11-29 00:00:00
+
+----
+
+Og-type-article-modified-time: 2021-11-29 00:00:00
+
+----
+
+Og-type-article-expiration-time: 2021-11-29 00:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default
+
+----
+
+Meta-keywords: 
