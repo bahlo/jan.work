@@ -20,6 +20,6 @@
 <?php if($page->template() == "article"): ?>
 <?= js(['assets/js/prism.js']) ?>
 <?php endif ?>
-<script defer data-domain="fruechtl.me" src="https://plausible.io/js/plausible.js"></script>
+<script defer data-domain="jan.work" src="https://plausible.io/js/plausible.js"></script>
 </body>
 </html>
