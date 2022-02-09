@@ -1,0 +1,7 @@
+redirects:
+  - 
+    from: journal/(:all)
+    to: writing/$1
+    status: 301
+    priority: false
+    comment: null
