@@ -12,6 +12,6 @@
     "sync:pull": "rsync -av ssh fruechtl@carina.uberspace.de:/var/www/virtual/fruechtl/html ./content "
   },
   "devDependencies": {
-    "sass": "^1.32.8"
+    "sass": "^1.49.7"
   }
 }
