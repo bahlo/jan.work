@@ -14,7 +14,7 @@
         </li>
       </ul>
     </div>
-    <span class="copyright">© 2021</span>
+    <span class="copyright">© <?= date("Y"); ?></span>
   </div>
 </footer>
 <?php if($page->template() == "article"): ?>
