@@ -22,7 +22,7 @@ Experience:
 
 - 
   title: Design Systems Lead at BRYTER
-  time: 'October 2020 - February 2022'
+  time: '2020 - 2022'
   location: Remote
   summary: >
     Focus on establishing our internal
@@ -34,7 +34,7 @@ Experience:
   company: BRYTER
 - 
   title: Product Designer at BRYTER
-  time: 'July 2019 - October 2020'
+  time: '2019 - 2020'
   location: Remote
   summary: >
     Design exploration and first concepts
@@ -47,7 +47,7 @@ Experience:
   company: BRYTER
 - 
   title: Product Designer at Clark
-  time: 'April 2019 - July 2019'
+  time: '2019 - 2019'
   location: Frankfurt am Main, Germany
   summary: >
     Support design work for white-label
@@ -57,7 +57,7 @@ Experience:
   company: Clark
 - 
   title: Product Designer at FastBill
-  time: 'April 2018 - April 2019'
+  time: '2018 - 2019'
   location: Frankfurt am Main, Germany
   summary: >
     Lead design of new “advance VAT
@@ -68,7 +68,7 @@ Experience:
   company: FastBill
 - 
   title: Product Designer at REICHHART
-  time: 'August 2015 - April 2018'
+  time: '2015 - 2018'
   location: Frankfurt am Main, Germany
   summary: >
     Research, concepts, visual design, and
@@ -76,14 +76,4 @@ Experience:
     applications. Lead development of
     internal design system (Web and
     Android).
-  company: REICHHART digital logistics
-- 
-  title: Freelance Designer
-  time: '2014 - 2018'
-  location: Remote
-  summary: >
-    Product design and web design for
-    smaller companies or together with
-    digital agencies. Freelancing gigs where
-    mostly part-time.
   company: REICHHART digital logistics
