@@ -12,6 +12,10 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e7910c">
 
+  <!-- Webmention -->
+  <link rel="webmention" href="https://webmention.io/jan.work/webmention" />
+  <link rel="pingback" href="https://webmention.io/jan.work/xmlrpc" />
+
   <?= css(['assets/css/main.css']) ?>
   <?= css($page->files()->filterBy('extension', 'css')->pluck('url')) ?>
 </head>
