@@ -3,7 +3,7 @@
   "version": "0.1",
   "main": "index.js",
   "repository": "https://github.com/getkirby/plainkit.git",
-  "author": "Jan Früchtl <jan@fruechtl.me>",
+  "author": "Jan Früchtl <hey@jan.work>",
   "license": "MIT",
   "scripts": {
     "styles": "sass assets/sass/main.scss assets/css/main.css --watch --style=compressed --update",
