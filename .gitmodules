@@ -1,0 +1,6 @@
+[submodule "site/plugins/indieConnector"]
+	path = site/plugins/indieConnector
+	url = https://github.com/mauricerenck/indieConnector.git
+[submodule "site/plugins/komments"]
+	path = site/plugins/komments
+	url = https://github.com/mauricerenck/komments.git
