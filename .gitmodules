@@ -4,3 +4,12 @@
 [submodule "site/plugins/komments"]
 	path = site/plugins/komments
 	url = https://github.com/mauricerenck/komments.git
+[submodule "site/plugins/kirby-autoresize"]
+	path = site/plugins/kirby-autoresize
+	url = https://github.com/medienbaecker/kirby-autoresize.git
+[submodule "site/plugins/kirby-meta-knight"]
+	path = site/plugins/kirby-meta-knight
+	url = https://github.com/diesdasdigital/kirby-meta-knight.git
+[submodule "site/plugins/kirby3-feed"]
+	path = site/plugins/kirby3-feed
+	url = https://github.com/bnomei/kirby3-feed.git
