@@ -13,3 +13,6 @@
 [submodule "site/plugins/kirby3-feed"]
 	path = site/plugins/kirby3-feed
 	url = https://github.com/bnomei/kirby3-feed.git
+[submodule "site/plugins/kirby-footnotes"]
+	path = site/plugins/kirby-footnotes
+	url = https://github.com/sylvainjule/kirby-footnotes.git
