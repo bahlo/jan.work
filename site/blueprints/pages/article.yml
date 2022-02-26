@@ -38,8 +38,5 @@ tabs:
                 type: date
                 time: true
                 default: now
-              likes:
-                label: Likes
-                type: likes
 
   seotab: seo
