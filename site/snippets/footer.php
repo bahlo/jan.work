@@ -4,6 +4,9 @@
     <div class="secondary-navigation">
       <ul class="secondary-navigation__list">
         <li class="secondary-navigation__item">
+          <a href="https://microblog.jan.work">Microblog</a>
+        </li>
+        <li class="secondary-navigation__item">
           <a href="<?php echo url("feed"); ?>">Feed</a>
         </li>
         <li class="secondary-navigation__item">
