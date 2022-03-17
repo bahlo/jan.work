@@ -1,0 +1,16 @@
+Title: Now
+
+----
+
+Text:
+
+This page was last update in March 2022.
+
+- Playing around with (link: https://micro.blog text: micro.blog) again. You can find my microblog under (link: https://microblog.jan.work text: microblog.jan.work)
+- Revamping my (link: https://obsidian.md text: Obsidian) setup in combination with (link: https://readwise.io text: Readwise)
+- Working on a little iOS called (link: https://couchtim.es text: CouchTimes) to help people track their favorite TV shows.
+- Doing a (link: https://sprachnachrichten.fm text: podcast) with my good friend and co-host, (link: https://arne.me text: Arne).
+- Reading (link: https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654 text: The Design Of Everyday Things)
+- Thinking about the perfect home office setup
+
+Inspired by (link: https://nownownow.com text: NowNowNow).
